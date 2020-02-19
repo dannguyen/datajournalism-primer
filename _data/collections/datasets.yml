@@ -1,0 +1,18 @@
+- name: Open Data Network
+  url: https://www.opendatanetwork.com
+  description: |
+    Search across official city Socrata portals
+  tags:
+    audience: Any
+
+- name: MuckRock FOI Requests
+  url: https://www.muckrock.com/foi/list/
+  description: |
+    Search all Freedom of Information public records requests made by MuckRock users.
+  tags:
+    audience: Any
+
+
+  examples:
+    - name: All completed requests that contain a file with a `.xlsx` extension
+      url: https://www.muckrock.com/foi/list/?page=1&per_page=100&file_types=xlsx&status=done
