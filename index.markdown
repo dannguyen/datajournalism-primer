@@ -4,3 +4,8 @@
 
 layout: home
 ---
+
+
+<h2>Resources</h2>
+
+- [Datasets]({% link pages/datasets.html %})

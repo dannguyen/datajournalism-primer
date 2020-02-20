@@ -1,0 +1,38 @@
+title: General dataset collections and search portals
+
+description: |
+  Search portals for public data
+
+
+items:
+
+  - name: Open Data Network
+    url: https://www.opendatanetwork.com
+    description: |
+      Search across official city Socrata portals etc etc etc
+    tags:
+      audience: Any
+
+
+  - name: MuckRock FOI Requests
+    url: https://www.muckrock.com/foi/list/
+    description: |
+      Search all Freedom of Information public records requests made by MuckRock users.
+    tags:
+      audience: Any
+    examples:
+      - name: All completed requests that contain a file with a `.xlsx` extension
+        url: https://www.muckrock.com/foi/list/?page=1&per_page=100&file_types=xlsx&status=done
+
+
+
+  - name: Google Dataset Search
+    url: https://datasetsearch.research.google.com/
+    description: |
+      A search tool from Google that [left beta in early 2020](https://www.blog.google/products/search/discovering-millions-datasets-web/.
+
+
+  - name: Data.gov.uk
+    url: https://data.gov.uk/
+    description: |
+      Maybe the biggest and most well-organized public data repository.
