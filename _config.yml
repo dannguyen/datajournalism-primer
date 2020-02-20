@@ -33,11 +33,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-collections:
-  - datasets:
-    - general-datasets
-    - topical-datasets
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
