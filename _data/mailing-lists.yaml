@@ -1,0 +1,12 @@
+https://groups.google.com/forum/#!forum/rjournos
+
+items:
+  - name: NICAR-L
+    url: https://www.ire.org/resource-center/listservs/subscribe-to-nicar-l
+    description: |
+       A forum for the discussion of subjects related to computer-assisted reporting. It also acts as a posting board for new developments at NICAR, including seminar announcements and database information. Possibly the most active journalism-related listserv.
+
+  - name: Rjournos
+    url: https://groups.google.com/forum/#!forum/rjournos
+    description: |
+      A Google Group for journalists using R. Invite-only membership (to reduce spam)
