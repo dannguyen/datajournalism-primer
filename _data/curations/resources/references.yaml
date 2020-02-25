@@ -1,0 +1,12 @@
+title: References and books
+description: |
+  Dedicated online references, such as books, about data journalism
+items:
+
+  - url: https://datajournalism.com/
+    name: Data Journalism Handbook
+
+  - name: investigate.ai
+    url: https://investigate.ai/
+    description: |
+      Practical data science for journalists (and everyone else)

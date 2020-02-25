@@ -27,9 +27,9 @@ baseurl: "/datajournalism-primer" # the subpath of your site, e.g. /blog
 url: "https://dannguyen.github.io/datajournalism-primer" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dancow
 github_username:  dannguyen
-
+repository: dannguyen/datajournalism-primer
 # Build settings
-theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 

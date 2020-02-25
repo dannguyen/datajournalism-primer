@@ -1,0 +1,43 @@
+title: Investigations
+description: |
+  Longform investigations using data
+
+items:
+  - name: "Suckers List: How Allstate’s Secret Auto Insurance Algorithm Squeezes Big Spenders"
+    url: https://themarkup.org/allstates-algorithm/2020/02/25/car-insurance-suckers-list
+    publisher: The Markup
+    date: 2020-02-25
+    authors:
+      - name: Maddy Varner
+        url: https://themarkup.org/people/maddy-varner
+      - name: Aaron Sankin
+        url: https://themarkup.org/people/aaron-sankin
+
+    description: |
+      Insurers are supposed to price based on risk, but Allstate’s algorithm put a thumb on the scale
+
+
+    tags:
+      programming-languages:
+        - Python
+        - R
+      programming-techniques:
+        - pdf-extraction
+        - decision-trees
+
+    excerpt: |
+      Seven years ago, Allstate Corporation told Maryland regulators it was time to update its auto insurance rates. The insurer said its new, sophisticated risk analysis showed it was charging nearly all of its 93,000 Maryland customers outdated premiums. Some of the old rates were off by miles. One 36-year-old man from Prince George’s County, Md., who Allstate said in public records should have been paying $3,750 every six months, was instead being charged twice that, more than $7,500. Other customers were paying hundreds or thousands of dollars less than they should have been, based on Allstate’s new calculation of the risk that they would file a claim.
+
+    repo:
+      url: https://github.com/the-markup/investigation-allstates-algorithm
+      description: |
+        Contains Python and R, and PDF conversion
+
+
+
+    methodology:
+      url: https://themarkup.org/allstates-algorithm/2020/02/25/show-your-work-car-insurance-suckers-list
+      name: How We Analyzed Allstate’s Car Insurance Algorithm ﻿
+      excerpt: |
+        We tested whether Allstate’s personalized pricing algorithm treated customers differently based on non-risk factors by analyzing rare customer-level data we found in documents that were part of a 2013 rate filing submitted for approval and subsequently disapproved by Maryland regulators. This filing provides the most insight into Allstate’s retention model available to the public, with a level of detail that is typically shielded from public view by Allstate and other insurers.
+

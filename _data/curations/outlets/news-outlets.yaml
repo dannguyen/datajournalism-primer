@@ -1,0 +1,23 @@
+title: Journalism outlets
+description: |
+  Journalism outlets that have a heavy emphasis on empirical methods and data analysis.
+
+items:
+
+  - name: FiveThirtyEight
+    url: https://fivethirtyeight.com/
+
+  - name: ProPublica
+    url: https://www.propublica.org/
+
+  - name: Pudding
+    description: |
+      A digital publication that explains ideas debated in culture with visual essays.
+    url: https://pudding.cool/
+
+
+  - name: The Markup
+    url: https://themarkup.org/
+    examples:
+      - name: About
+        url: https://themarkup.org/about
