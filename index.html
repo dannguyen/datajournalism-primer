@@ -3,12 +3,20 @@ layout: home
 ---
 
 
-{% for dhash in site.data.curations.outlets %}
-
-{% assign datum = dhash[1] %}
+{% for curation_page in site.curation_pages %}
 
 
-{% include curation-linkage.html curation=datum %}
+    <h1>
+        <a href="{{curation_page.url | absolute_url }} ">{{curation_page.title}}</a>
+    </h1>
 
-
+    <div class="curation-description">
+        {{curation_page.description | markdownify}}
+    </div>
 {% endfor %}
+
+
+<!-- <code>
+    {{ site.data }}
+</code>
+ -->

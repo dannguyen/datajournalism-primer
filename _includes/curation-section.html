@@ -1,0 +1,18 @@
+
+{% assign curation = include.curation %}
+
+
+<h2>
+    <a href="#">{{curation.title  }}</a>
+</h2>
+
+<div class="description">
+    {{curation.description | markdownify}}
+</div>
+
+
+{% for item in curation.items %}
+
+    {% include curation-item.html content=curation %}
+
+{% endfor %}

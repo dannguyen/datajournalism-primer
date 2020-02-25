@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+<div class="curation-page">
+
+    <h1 class="title">
+        {{page.title}}
+    </h1>
+
+    <div class="description">
+        {{page.description}}
+    </div>
+
+
+
+{% assign curations = site.data.curations[page.curation_folder] %}
+
+{% for _chash in curations %}
+
+
+    {% assign curation = _chash[1] %}
+
+    {% include curation-section.html curation=curation %}
+
+{% endfor %}
+
+
+</div>

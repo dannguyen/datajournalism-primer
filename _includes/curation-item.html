@@ -1,0 +1,26 @@
+{% assign item = include.item %}
+
+<section class="curation item">
+
+    <h3>
+        <a href="{{ item.url }}">{{item.name | markdownify }}</a>
+    </h3>
+
+    {{item.description | markdownify}}
+
+    {% if item.examples %}
+
+    <section class="container sec examples">
+
+        <h5>Examples</h5>
+
+        <ul>
+        {% for ex in item.examples %}
+            <li><a href="{{ ex.url }}">{{ex.name | markdownify }}</a></li>
+        {% endfor %}
+        </ul>
+
+    </section>
+
+    {% endif %}
+</section>

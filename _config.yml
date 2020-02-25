@@ -33,6 +33,13 @@ theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
+collections_dir: my_collections
+collections:
+  curation_pages:
+    output: true
+    order:
+      - outlets.html
+      - datasets.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
