@@ -1,26 +1,55 @@
 {% assign item = include.item %}
 
-<section class="curation item">
 
-    <h3>
+<!-- each item has a generic anchor and, optionally, an "actual" anchor from `item.refanchor` -->
+
+{% assign _generic_anchor = "generic-ref-" | append: item.name | slugify  %}
+{% assign _item_anchor = _generic_anchor %}
+
+<span class="generic refanchor" id="{{_generic_anchor}}" name="{{_generic_anchor}}">
+</span>
+{% if item.reflink  %}
+    {% assign _actual_anchor = 'reflink-' | append: item.reflink %}
+    {% assign _item_anchor = _actual_anchor %}
+    <span class="actual refanchor" id="{{_actual_anchor}}" name="{{_actual_anchor}}">
+    </span>
+{% endif %}
+
+{% assign _item_permalink = site.fullindex_path | append: '#' | append: _item_anchor %}
+
+
+
+<section class="item">
+
+    <h3 class="item-name name">
         <a href="{{ item.url }}">{{item.name | markdownify }}</a>
     </h3>
 
-    {{item.description | markdownify}}
+    <span class="debug">
+        <a href="{{_item_permalink | absolute_url }}">
+            {{_item_permalink}}
+        </a>
+    </span>
+
+    <div class="item-description description">
+
+        {{item.description | markdownify}}
+
+    </div>
 
     {% if item.examples %}
 
-    <section class="container sec examples">
+        <section class="item-examples">
 
-        <h5>Examples</h5>
+            <div class="minor-hed">Examples</div>
 
-        <ul>
-        {% for ex in item.examples %}
-            <li><a href="{{ ex.url }}">{{ex.name | markdownify }}</a></li>
-        {% endfor %}
-        </ul>
+            <ul class="examples">
+            {% for ex in item.examples %}
+                <li><a href="{{ ex.url }}">{{ex.name | markdownify }}</a></li>
+            {% endfor %}
+            </ul>
 
-    </section>
+        </section>
 
     {% endif %}
 </section>

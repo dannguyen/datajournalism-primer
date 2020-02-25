@@ -4,6 +4,10 @@ description: |
 
 items:
 
+  - name: BuzzFeedNews
+    url: https://buzzfeednews.com
+
+
   - name: FiveThirtyEight
     url: https://fivethirtyeight.com/
 

@@ -1,0 +1,31 @@
+title: Tools
+description: |
+  A shortlist of tools; not so much an exhaustive reference but an illustration of the kind of things data journalists typically need to do day-to-day TK
+
+
+items:
+
+  - name: agate
+    url: https://github.com/wireservice/agate
+    description: |
+      A Python data analysis library that is optimized for humans instead of machines.
+
+  - name: csvkit
+    url: https://csvkit.readthedocs.io/en/latest/
+
+  - name: xsv
+    url: https://github.com/BurntSushi/xsv
+    description: |
+      Slimmer functionality compared to csvkit, but much faster.
+
+
+  - name: Apache Tika
+    url: https://tika.apache.org/
+
+
+  - name: tabula
+    url: https://tabula.technology/
+
+
+  - name: OpenRefine
+    url: https://openrefine.org/

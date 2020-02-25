@@ -1,0 +1,43 @@
+---
+layout: page
+title: Full Index
+permalink: /fullindex
+description: |
+    A flat listing of every curated item on this site
+---
+
+<div class="fullindex">
+
+
+    {% for cluster in site.clusters %}
+    <section class="cluster">
+
+        <h1 class="cluster-title title name">
+            <a href="{{cluster.url | absolute_url }} ">Cluster: {{cluster.title}}</a>
+        </h1>
+
+        <div class="cluster-description description">
+            {{cluster.description | markdownify}}
+        </div>
+
+
+        <section class="curations">
+
+            {% assign curations = site.data.curations[cluster.cluster_folder] %}
+
+            {% for _chash in curations %}
+
+                {% assign curation = _chash[1] %}
+
+                {% include curation-section.html curation=curation %}
+
+            {% endfor %}
+
+        </section>
+
+
+    </section>
+    {% endfor %}
+
+
+</div>

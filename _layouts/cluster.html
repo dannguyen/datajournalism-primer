@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<!--
+    TK: Should this be an include, e.g. _includes/cluster.html
+ -->
+
+{% assign clusterpage = page %}
+
+<div class="cluster-page">
+
+    <h1 class="cluster-title title name">
+        {{clusterpage.title}}
+    </h1>
+
+    <div class="cluster-description description">
+        {{clusterpage.description}}
+    </div>
+
+
+    <section class="curations">
+
+        {% assign curations = site.data.curations[clusterpage.cluster_folder] %}
+
+        {% for _chash in curations %}
+
+
+            {% assign curation = _chash[1] %}
+
+            {% include curation-section.html curation=curation %}
+
+        {% endfor %}
+
+    </section>
+
+</div>

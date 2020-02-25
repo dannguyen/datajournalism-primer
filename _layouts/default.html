@@ -20,9 +20,10 @@
   <body>
       <div id="header">
         <nav>
-          <li class="title"><a href="{{ "/" | absolute_url }}">Homepage</a></li>
-          <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-          {% if site.show_downloads %}
+          <li class="title"><a href="{{ '/' | absolute_url }}">Homepage</a></li>
+          <li class="fullindex"><a href="{{ site.fullindex_path | absolute_url }}">Full Index</a></li>
+<!--           <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
+ -->          {% if site.show_downloads %}
             <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
             <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
             <li class="title">DOWNLOADS</li>

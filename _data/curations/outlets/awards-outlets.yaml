@@ -14,4 +14,12 @@ items:
     name: NICAR Philip Meyer Awards
 
   - url: https://www.datajournalismawards.org
-    name: Data Journalism Awards
+    name: GEN Data Journalism Awards
+    description: |
+      Hosted by the Global Editors Network
+
+      Note: GEN – and these awards – went defunct in 2019.
+
+    examples:
+      - name: 2019 Shortlist
+        url: https://www.datajournalismawards.org/2019-shortlist/

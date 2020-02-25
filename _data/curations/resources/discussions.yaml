@@ -1,9 +1,10 @@
-title: Communities
+title: Discussions
 description: |
   Discussion groups, including mailing lists and Slack chats.
 
 items:
   - name: NICAR-L
+    reflink: nicar-l
     url: https://www.ire.org/resource-center/listservs/subscribe-to-nicar-l
     description: |
        A forum for the discussion of subjects related to computer-assisted reporting. It also acts as a posting board for new developments at NICAR, including seminar announcements and database information. Possibly the most active journalism-related listserv.

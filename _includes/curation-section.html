@@ -1,18 +1,21 @@
 
 {% assign curation = include.curation %}
 
+<section class="curation">
+    <h2 class="curation-name name">
+        <!-- <a href="#"></a> -->
+        {{curation.title  }}
+    </h2>
 
-<h2>
-    <a href="#">{{curation.title  }}</a>
-</h2>
-
-<div class="description">
-    {{curation.description | markdownify}}
-</div>
+    <div class="curation-description description">
+        {{curation.description | markdownify}}
+    </div>
 
 
-{% for item in curation.items %}
+    {% for item in curation.items %}
 
-    {% include curation-item.html content=curation %}
+        {% include curation-item.html content=curation %}
 
-{% endfor %}
+    {% endfor %}
+</section>
+

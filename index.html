@@ -3,17 +3,21 @@ layout: home
 ---
 
 
-{% for curation_page in site.curation_pages %}
+{% for cluster in site.clusters %}
+<section class="cluster">
 
-
-    <h1>
-        <a href="{{curation_page.url | absolute_url }} ">{{curation_page.title}}</a>
+    <h1 class="cluster-title title">
+        <a href="{{cluster.url | absolute_url }} ">{{cluster.title}}</a>
     </h1>
 
-    <div class="curation-description">
-        {{curation_page.description | markdownify}}
+    <div class="cluster-description description">
+        {{cluster.description | markdownify}}
     </div>
+
+
+</section>
 {% endfor %}
+
 
 
 <!-- <code>

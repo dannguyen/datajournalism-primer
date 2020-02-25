@@ -1,0 +1,31 @@
+title: Specialty sites
+description: |
+  Blogs and other publications more technical and specific to data analysis and visualization, and not necessarily journalism-focused.
+
+
+items:
+  - name: The Functional Art
+    url: http://www.thefunctionalart.com/
+    description: |
+      Blog by Alberto Cairo
+    examples:
+      - name: Alberto Cairo's personal page
+        url: http://albertocairo.com/
+        description: |
+          A convenient place to find Cairo's books and talks.
+
+
+  - name: Flowing Data
+    description: |
+      Blog, with lots of interesting links and lessons, including premium content, by Nathan Yau.
+    url: https://flowingdata.com/
+
+
+
+  - name: Mike Bostock's Blog
+    description: |
+      lots of good stuff tk
+    url: https://medium.com/@mbostock
+    examples:
+      - name: Command-Line Cartography
+        url: "https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c"

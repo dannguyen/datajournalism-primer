@@ -1,13 +1,13 @@
 title: General dataset collections and search portals
 
 description: |
-  Search portals for public data
+  Data Portals, basically (TK curation)
 
 
 items:
-
   - name: Open Data Network
     url: https://www.opendatanetwork.com
+    reflink: open-data-network
     description: |
       Search across official city Socrata portals etc etc etc
     tags:
@@ -29,7 +29,7 @@ items:
   - name: Google Dataset Search
     url: https://datasetsearch.research.google.com/
     description: |
-      A search tool from Google that [left beta in early 2020](https://www.blog.google/products/search/discovering-millions-datasets-web/.
+      A search tool from Google that [left beta in early 2020](https://www.blog.google/products/search/discovering-millions-datasets-web/).
 
 
   - name: Data.gov.uk
