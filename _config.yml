@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: How to Be a Data Journalist
+title: The Data Journalism Primer
 email: dansonguyen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto aliquid suscipit et qui inventore doloribus eligendi dolorum reiciendis officiis maiores amet quod voluptatum in culpa omnis aspernatur, velit repudiandae. Repudiandae.
+  A repository of data journalism stories, essays, guides, repos and resources, for folks interested in learning about the field and aspiring to do it.
+
 
 baseurl: "/datajournalism-primer" # the subpath of your site, e.g. /blog
-url: "https://dannguyen.github.io/datajournalism-primer" # the base hostname & protocol for your site,
+url: "https://dannguyen.github.io" # the base hostname & protocol for your site,
 fullindex_path: fullindex
 
 twitter_username: dancow
