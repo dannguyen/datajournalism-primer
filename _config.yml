@@ -31,7 +31,6 @@ twitter_username: dancow
 github_username:  dannguyen
 repository: dannguyen/datajournalism-primer
 # Build settings
-theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
@@ -68,3 +67,17 @@ collections:
 #   - vendor/ruby/
 
 
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+
+# defaults:
+#   - scope:
+#       path: "assets/images"
+#     values:
+#       image: true

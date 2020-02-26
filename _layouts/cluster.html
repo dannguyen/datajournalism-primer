@@ -20,8 +20,20 @@ layout: default
 {% assign curations = curations | sort: 'sortorder','last' %}
 
 
+    <section class="curations">
 
 
+        {% for c in curations %}
+
+            {% include curation-section.html curation=c %}
+
+        {% endfor %}
+
+    </section>
+
+
+
+<!-- DTK: define clusters by their collection page meta, not JSON files
 
 <div class="cluster-page">
 
@@ -34,19 +46,8 @@ layout: default
     </div>
 
 
-    <section class="curations">
-
-
-        {% for c in curations %}
-
-            {% include curation-section.html curation=c %}
-
-        {% endfor %}
-
-    </section>
-
 </div>
-
+ -->
 
 <!--
 <section class="tk debug">

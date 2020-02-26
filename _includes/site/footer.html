@@ -1,0 +1,54 @@
+<footer class="site-footer">
+    <div class="container">
+        <h2>This is where the fat footer goes</h2>
+
+
+        <div class="row">
+
+
+            <div class="col">
+                <h6>Site Nav</h6>
+                <ul>
+                    {% for item in site.data.navigation %}
+                        <li><a href="{{ item.url }}">{{item.name}}</a></li>
+
+                    {% endfor %}
+                </ul>
+
+            </div>
+            <div class="col">
+                <h6>Elsewhere</h6>
+                <ul>
+                    <li><span class="fa fa-github-alt"></span>Github</li>
+                    <li><span class="fa fa-twitter"></span>Twitter</li>
+                    <li><span class="fa fa-rss"></span>Blog</li>
+                    <li><span class="fa fa-flickr"></span>Photos</li>
+                </ul>
+            </div>
+
+
+            <div class="col">
+                <p class="site-info">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quod asperiores sunt, magni, dolore suscipit eveniet similique incidunt enim placeat hic veritatis. Eligendi earum nam exercitationem quibusdam facilis. Pariatur, eius!
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+
+
+</footer>
+

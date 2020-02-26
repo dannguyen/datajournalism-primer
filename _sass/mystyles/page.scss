@@ -1,0 +1,34 @@
+#page-body{
+    margin-bottom: 1em;
+}
+
+
+
+
+#page-meta{
+    margin-bottom: 2em;
+
+    .page-title{
+      @include font-size($display2-size);
+    }
+
+    .page-description{
+        @include font-size($font-size-lg);
+    }
+
+}
+
+
+
+.curation{
+    margin-bottom: 3.5em;
+
+    .curation-title{
+        @include font-size($h3-font-size);
+    }
+
+    .item-title{
+         @include font-size($h5-font-size);
+
+    }
+}
