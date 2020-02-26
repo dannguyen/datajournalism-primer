@@ -1,9 +1,10 @@
----
 layout: cluster
 title: Cluster Template
 description: |
     Lorem ipsum TK TK
+
+
+# tk: specify name, use :name for cluster_folder
 cluster_folder: outlets
----
 
 

@@ -1,0 +1,38 @@
+---
+layout: page
+title: debugger
+description: |
+    debug Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio deserunt ipsa eum illum fugiat obcaecati repellendus consequatur dolor fugit maxime esse eaque sed maiores velit repudiandae, accusamus suscipit officia veniam.
+---
+
+
+<h2>raw stub data</h2>
+
+{% assign rawstubs = site.data._stubs  %}
+
+<code>
+    {{ site.data._stubs }}
+</code>
+
+<section>
+
+<h2>raw flatten</h2>
+
+
+{% assign myarray = "" | split: "," %}
+{% for _el in rawstubs %}
+    {% assign myarray = myarray | concat: _el[1] %}
+{% endfor %}
+
+<code>
+{% for el in myarray %}{{el }} <br>{% endfor %}
+</code>
+<!--
+<ul>
+    {% for stub in _array %}
+        <li>{{stub}}</li>
+    {% endfor %}
+</ul> -->
+
+
+</section>

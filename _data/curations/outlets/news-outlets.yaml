@@ -1,27 +1,27 @@
 title: Journalism outlets
 description: |
   Journalism outlets that have a heavy emphasis on empirical methods and data analysis.
-
+sortorder: 100
 items:
 
-  - name: BuzzFeedNews
+  - title: BuzzFeedNews
     url: https://buzzfeednews.com
 
 
-  - name: FiveThirtyEight
+  - title: FiveThirtyEight
     url: https://fivethirtyeight.com/
 
-  - name: ProPublica
+  - title: ProPublica
     url: https://www.propublica.org/
 
-  - name: Pudding
+  - title: Pudding
     description: |
       A digital publication that explains ideas debated in culture with visual essays.
     url: https://pudding.cool/
 
 
-  - name: The Markup
+  - title: The Markup
     url: https://themarkup.org/
     examples:
-      - name: About
+      - title: About
         url: https://themarkup.org/about

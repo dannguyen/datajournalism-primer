@@ -3,7 +3,7 @@
 
 <!-- each item has a generic anchor and, optionally, an "actual" anchor from `item.refanchor` -->
 
-{% assign _generic_anchor = "generic-ref-" | append: item.name | slugify  %}
+{% assign _generic_anchor = "generic-ref-" | append: item.title | slugify  %}
 {% assign _item_anchor = _generic_anchor %}
 
 <span class="generic refanchor" id="{{_generic_anchor}}" name="{{_generic_anchor}}">
@@ -21,35 +21,30 @@
 
 <section class="item">
 
-    <h3 class="item-name name">
-        <a href="{{ item.url }}">{{item.name | markdownify }}</a>
+    <h3 class="item-title title">
+        <a href="{{ item.url }}">{{item.title | markdownify }}</a>
     </h3>
 
-    <span class="debug">
-        <a href="{{_item_permalink | absolute_url }}">
-            {{_item_permalink}}
-        </a>
-    </span>
 
     <div class="item-description description">
 
         {{item.description | markdownify}}
 
+
+        <span class="debug tk">
+            <a href="{{_item_permalink | absolute_url }}">
+                {{_item_permalink}}
+            </a>
+        </span>
+
     </div>
 
     {% if item.examples %}
 
-        <section class="item-examples">
-
-            <div class="minor-hed">Examples</div>
-
-            <ul class="examples">
-            {% for ex in item.examples %}
-                <li><a href="{{ ex.url }}">{{ex.name | markdownify }}</a></li>
-            {% endfor %}
-            </ul>
-
-        </section>
+        {% include item-examples.html examples=item.examples %}
 
     {% endif %}
+
+
+
 </section>

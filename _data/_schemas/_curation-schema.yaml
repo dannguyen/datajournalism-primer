@@ -1,0 +1,11 @@
+title: Curation Title
+description: |
+  SEO friendly brief general description TK Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+sortorder: 0  # number to sort in ascending order
+# must follow item schema
+items:
+  - title: BuzzFeedNews
+    url: https://buzzfeednews.com
+
+

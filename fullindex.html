@@ -3,7 +3,7 @@ layout: page
 title: Full Index
 permalink: /fullindex
 description: |
-    A flat listing of every curated item on this site
+    A flat listing of every curated item on this site, sorted alphabetically by cluster
 ---
 
 <div class="fullindex">
@@ -12,7 +12,7 @@ description: |
     {% for cluster in site.clusters %}
     <section class="cluster">
 
-        <h1 class="cluster-title title name">
+        <h1 class="cluster-title title">
             <a href="{{cluster.url | absolute_url }} ">Cluster: {{cluster.title}}</a>
         </h1>
 

@@ -1,25 +1,25 @@
-title: Data journalism awards
+title: Awards
 
 description: |
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi vero nam dolores, quis? Vel quia tempore modi, illum incidunt maxime aperiam accusamus nulla dolore repellendus, odit assumenda temporibus sed alias?
 
 
 items:
-  - name: Sigma Awards
+  - title: Sigma Awards
     url: https://datajournalism.com/awards
     description: |
       https://twitter.com/pilhofer/status/1230222608114814977
 
   - url: https://www.ire.org/awards/philip-meyer-awards
-    name: NICAR Philip Meyer Awards
+    title: NICAR Philip Meyer Awards
 
   - url: https://www.datajournalismawards.org
-    name: GEN Data Journalism Awards
+    title: GEN Data Journalism Awards
     description: |
       Hosted by the Global Editors Network
 
       Note: GEN – and these awards – went defunct in 2019.
 
     examples:
-      - name: 2019 Shortlist
+      - title: 2019 Shortlist
         url: https://www.datajournalismawards.org/2019-shortlist/

@@ -8,9 +8,24 @@ layout: default
 
 {% assign clusterpage = page %}
 
+{% assign _rawcurations = site.data.curations[clusterpage.cluster_folder] %}
+{% assign curations = "" | split: "," %}
+
+{% for _rc in _rawcurations %}
+    {% assign _el = _rc[1] %}
+
+    {% assign curations = curations | push: _el %}
+{% endfor %}
+
+{% assign curations = curations | sort: 'sortorder','last' %}
+
+
+
+
+
 <div class="cluster-page">
 
-    <h1 class="cluster-title title name">
+    <h1 class="cluster-title title">
         {{clusterpage.title}}
     </h1>
 
@@ -21,17 +36,32 @@ layout: default
 
     <section class="curations">
 
-        {% assign curations = site.data.curations[clusterpage.cluster_folder] %}
 
-        {% for _chash in curations %}
+        {% for c in curations %}
 
-
-            {% assign curation = _chash[1] %}
-
-            {% include curation-section.html curation=curation %}
+            {% include curation-section.html curation=c %}
 
         {% endfor %}
 
     </section>
 
 </div>
+
+
+
+<section class="tk debug">
+
+<h2>raw curations</h2>
+
+<code>
+    {{ _rawcurations}}
+</code>
+
+
+<h2>curations sorted</h2>
+<code>
+    {{curations | jsonify}}
+</code>
+
+
+</section>

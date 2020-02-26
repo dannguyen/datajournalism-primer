@@ -4,16 +4,18 @@ description: |
 
 
 items:
-  - name: National Institute of Computer-Assisted Reporting (NICAR)
+  - title: National Institute of Computer-Assisted Reporting (NICAR)
     url: https://www.ire.org/nicar/
     description: |
       The National Institute for Computer-Assisted Reporting maintains a library of federal databases, employs journalism students, and trains journalists in the practical skills of getting and analyzing electronic information.
 
     examples:
-      - reflink: nicar-l
+
+      - reftarget: nicar-l
+        title: NICAR-L Mailing List
 
 
-  - name: Rjournos
+  - title: Rjournos
     url: https://groups.google.com/forum/#!forum/rjournos
     description: |
       A Google Group for journalists using R. Invite-only membership (to reduce spam)

@@ -1,0 +1,13 @@
+title: Essays
+description: |
+  How-do-you-Do TK
+
+
+items:
+  - title: Connecting with the Dots
+    url: https://source.opennews.org/articles/connecting-dots/
+    description: |
+      Jake Harris on data visualization, empathy, and representing people with dots
+    publishmeta:
+      authors:
+        - name: Jacob Harris

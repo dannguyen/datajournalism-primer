@@ -1,0 +1,75 @@
+"""
+Official data schema for items
+"""
+
+### REQUIRED ATTRIBUTES
+title: Title of The Thing
+url: https://example.com/article/item/permalink.html
+## /REQUIRED
+
+# used to denote a canonical anchor on fullindex, e.g. fullindex#reflink-internal-canonical-anchorname
+reflink: internal-canonical-anchorname
+
+
+
+description: |
+  SEO friendly description of the thing. Kind of like a deck. Markdown allowed
+
+summary: |
+  Long-form description of the thing.
+
+  If it exists, it is used *in lieu* of the description.
+
+
+
+publishmeta:
+  date: 2020-02-20 # iso format, partial dates ok, e.g. 2020 and 2020-11
+  publisher:
+    - title: Publisher Name
+      url: https://publisher-homepage.com
+  authors:
+    - title: Firstname Lastname, Suffix
+      url: https://publisher-homepage.com/author
+
+excerpt: |
+  verbatim copy. markdown NOT allowed
+
+# all tags are optional
+tags:
+  proficency:
+    - any # intermediate, expert
+  programming-languages:
+    - none # python, javascript, r-lang, ruby
+  programming-libraries:
+    - none # d3, csvkit, pandas, agate, altair
+  techniques: # regressions, machine-learning, pdf-extraction, image-recognition
+    - none
+
+
+# examples are lightweight items; most typically used when an item is a full-fledged site, e.g. Source OpenNews, to let reader get a preview via illustrative examples
+
+# can use reftarget to specify a canonical reflink; i.e. a link to an item as it appears on the site fullindex
+
+examples:
+  - title: Example Story 1
+    url: https://differentexample.com/yadayda
+  - reftarget: an-item-reflink
+    title: Still Need to Include a Title
+
+
+# specialized urls
+# only one of each
+appendixmeta:
+  repo:
+    url: https://github.com/the-markup/investigation-allstates-algorithm
+    description: |
+      Contains Python and R, and PDF conversions
+
+
+  methodology:
+    url: https://themarkup.org/allstates-algorithm/2020/02/25/show-your-work-car-insurance-suckers-list
+    title: How We Analyzed Allstate’s Car Insurance Algorithm ﻿
+    excerpt: |
+      We tested whether Allstate’s personalized pricing algorithm treated customers differently based on non-risk factors by analyzing rare customer-level data we found in documents that were part of a 2013 rate filing submitted for approval and subsequently disapproved by Maryland regulators. This filing provides the most insight into Allstate’s retention model available to the public, with a level of detail that is typically shielded from public view by Allstate and other insurers.
+
+

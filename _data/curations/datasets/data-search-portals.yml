@@ -1,0 +1,40 @@
+title: Data search portals
+
+description: |
+  Data Portals, basically (TK curation)
+
+sortorder: 55
+items:
+  - title: Open Data Network
+    url: https://www.opendatanetwork.com
+    reflink: open-data-network
+    description: |
+      Search across official city Socrata portals etc etc etc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deserunt, exercitationem ad autem placeat debitis vitae earum doloribus laboriosam quaerat ducimus, quisquam repellendus sint culpa dolorem labore officiis maiores. Fuga.
+    examples:
+      - title: Search results for police use-of-force incidents, including officer-involved shootings
+        url: https://opendatanetwork.com/search?q=officer+involved+OR+use+of+force
+      - title: Datasets categorized as "transportation"
+        url: https://opendatanetwork.com/search?categories=transportation
+
+
+  - title: MuckRock FOI Requests
+    url: https://www.muckrock.com/foi/list/
+    description: |
+      Search all Freedom of Information public records requests made by MuckRock users.
+
+    examples:
+      - title: All completed requests that contain a file with a `.xlsx` extension
+        url: https://www.muckrock.com/foi/list/?page=1&per_page=100&file_types=xlsx&status=done
+
+
+
+  - title: Google Dataset Search
+    url: https://datasetsearch.research.google.com/
+    description: |
+      A search tool from Google that [left beta in early 2020](https://www.blog.google/products/search/discovering-millions-datasets-web/).
+
+
+  - title: Data.gov.uk
+    url: https://data.gov.uk/
+    description: |
+      Maybe the biggest and most well-organized public data repository.

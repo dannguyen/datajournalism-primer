@@ -1,0 +1,26 @@
+
+<section class="item-examples">
+
+    <div class="minor-hed">Examples</div>
+
+    <ul class="examples">
+    {% for ex in item.examples %}
+        <li class="example">
+            {% if  ex.reftarget %}
+                {% include a-reflink.html reflink=ex.reftarget linktitle=ex.title %}
+            {% else %}
+
+                <a href="{{ ex.url }}">{{ex.title }}</a>
+                {% if ex.description %}
+                     &emdash; {{ ex.description }}
+                {% endif %}
+            {% endif %}
+
+
+
+
+        </li>
+    {% endfor %}
+    </ul>
+
+</section>

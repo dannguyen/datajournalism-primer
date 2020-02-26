@@ -1,9 +1,10 @@
 title: Meta outlets
 description: |
   Sites about data journalism.
+sortorder: 120
 
 items:
-  - name: Source OpenNews
+  - title: Source OpenNews
     url: https://source.opennews.org/
     description: |
       Source is an OpenNews project designed to amplify the impact of journalism code and the community of developers, designers, journalists, and editors who make it.
@@ -11,5 +12,5 @@ items:
        Incubated at the Mozilla Foundation from 2011-2016, OpenNews is now a project of Community Partners.
 
     examples:
-      - name: News Apps Essentials
+      - title: News Apps Essentials
         url: https://source.opennews.org/guides/news-apps-essentials/

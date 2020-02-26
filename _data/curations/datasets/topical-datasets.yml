@@ -3,19 +3,20 @@ title: Specific topical datasets
 description: |
   A shortlist of very interesting, or at least, very detailed public datasets across a variety of specific topics and beats.
 
+sortorder: 1000
 
 items:
 
-  - name: California Public Sector Salaries
+  - title: California Public Sector Salaries
     url: https://transparentcalifornia.com/
     description: |
       Independent site with the largest and most detailed public pay and pension database for California public employees, including state, city, county, and school district levels.
 
 
-  - name: FEC Campaign Finance Data
+  - title: FEC Campaign Finance Data
     url: https://www.fec.gov/data/
     description: |
       money money
     examples:
-      - name: Bulk Data
+      - title: Bulk Data
         url: https://www.fec.gov/data/browse-data/?tab=bulk-data

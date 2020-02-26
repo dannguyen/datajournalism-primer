@@ -1,12 +1,13 @@
-title: Books
+title: Books and Indepth References
+sortorder: 100
 description: |
   Dedicated, in-depth online references, such as books.
 
 items:
   - url: https://datajournalism.com/
-    name: Data Journalism Handbook
+    title: Data Journalism Handbook
 
-  - name: investigate.ai
+  - title: investigate.ai
     url: https://investigate.ai/
     description: |
       Practical data science for journalists (and everyone else)

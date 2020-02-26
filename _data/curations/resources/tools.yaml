@@ -5,27 +5,27 @@ description: |
 
 items:
 
-  - name: agate
+  - title: agate
     url: https://github.com/wireservice/agate
     description: |
       A Python data analysis library that is optimized for humans instead of machines.
 
-  - name: csvkit
+  - title: csvkit
     url: https://csvkit.readthedocs.io/en/latest/
 
-  - name: xsv
+  - title: xsv
     url: https://github.com/BurntSushi/xsv
     description: |
       Slimmer functionality compared to csvkit, but much faster.
 
 
-  - name: Apache Tika
+  - title: Apache Tika
     url: https://tika.apache.org/
 
 
-  - name: tabula
+  - title: tabula
     url: https://tabula.technology/
 
 
-  - name: OpenRefine
+  - title: OpenRefine
     url: https://openrefine.org/
