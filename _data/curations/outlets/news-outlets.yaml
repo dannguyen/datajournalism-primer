@@ -4,9 +4,11 @@ description: |
 sortorder: 100
 items:
 
-  - title: BuzzFeedNews
+  - title: BuzzFeed News
     url: https://buzzfeednews.com
-
+    examples:
+      - title: Analysis of New York Gentrification Using 311 Call Data
+        reftarget: buzzfeed-news-311-gentrification
 
   - title: FiveThirtyEight
     url: https://fivethirtyeight.com/

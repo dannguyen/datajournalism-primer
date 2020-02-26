@@ -2,74 +2,77 @@
 Official data schema for items
 """
 
+
+# Note: we assume an item is in a list of items, hence `- title:`
+
 ### REQUIRED ATTRIBUTES
-title: Title of The Thing
-url: https://example.com/article/item/permalink.html
-## /REQUIRED
+- title: Title of The Thing
+  url: https://example.com/article/item/permalink.html
+  ## /REQUIRED
 
-# used to denote a canonical anchor on fullindex, e.g. fullindex#reflink-internal-canonical-anchorname
-reflink: internal-canonical-anchorname
-
-
-
-description: |
-  SEO friendly description of the thing. Kind of like a deck. Markdown allowed
-
-summary: |
-  Long-form description of the thing.
-
-  If it exists, it is used *in lieu* of the description.
+  # used to denote a canonical anchor on fullindex, e.g. fullindex#reflink-internal-canonical-anchorname
+  reflink: internal-canonical-anchorname
 
 
+  description: |
+    SEO friendly description of the thing. Kind of like a deck. Markdown allowed
 
-publishmeta:
-  date: 2020-02-20 # iso format, partial dates ok, e.g. 2020 and 2020-11
-  publisher:
-    - title: Publisher Name
+  summary: |
+    Long-form description of the thing.
+
+    If it exists, it is used *in lieu* of the description.
+
+
+
+  publishmeta:
+    date: 2020-02-20 # iso format, partial dates ok, e.g. 2020 and 2020-11
+    publisher:
+      name: Publisher Name
       url: https://publisher-homepage.com
-  authors:
-    - title: Firstname Lastname, Suffix
-      url: https://publisher-homepage.com/author
-
-excerpt: |
-  verbatim copy. markdown NOT allowed
-
-# all tags are optional
-tags:
-  proficency:
-    - any # intermediate, expert
-  programming-languages:
-    - none # python, javascript, r-lang, ruby
-  programming-libraries:
-    - none # d3, csvkit, pandas, agate, altair
-  techniques: # regressions, machine-learning, pdf-extraction, image-recognition
-    - none
+    authors:
+      - name: Firstname Lastname, Suffix
+        url: https://publisher-homepage.com/author
 
 
-# examples are lightweight items; most typically used when an item is a full-fledged site, e.g. Source OpenNews, to let reader get a preview via illustrative examples
 
-# can use reftarget to specify a canonical reflink; i.e. a link to an item as it appears on the site fullindex
+  # examples are lightweight items; most typically used when an item is a full-fledged site, e.g. Source OpenNews, to let reader get a preview via illustrative examples. For stories, can also point to non-appendix meta material, like PDF versions, or slide presentations, etc. by the same author/publisher
+  examples:
+    - title: Example Story 1
+      url: https://differentexample.com/yadayda
+      description: |
+        A good example of how this site does a story
 
-examples:
-  - title: Example Story 1
-    url: https://differentexample.com/yadayda
-  - reftarget: an-item-reflink
-    title: Still Need to Include a Title
-
-
-# specialized urls
-# only one of each
-appendixmeta:
-  repo:
-    url: https://github.com/the-markup/investigation-allstates-algorithm
-    description: |
-      Contains Python and R, and PDF conversions
+    - title: Showing my Work in Jupyter
+      url: https://github.com/whasdfkljasdklfj/notebooks/jupyter5.ipnyb
+      description: |
+        Showing regression analysis done on puppies using pandas
+  # can use reftarget to specify a canonical reflink; i.e. a link to an item as it appears on the site fullindex
+    - reftarget: an-item-reflink
+      title: Still Need to Include a Title
 
 
-  methodology:
-    url: https://themarkup.org/allstates-algorithm/2020/02/25/show-your-work-car-insurance-suckers-list
-    title: How We Analyzed Allstate’s Car Insurance Algorithm ﻿
-    excerpt: |
-      We tested whether Allstate’s personalized pricing algorithm treated customers differently based on non-risk factors by analyzing rare customer-level data we found in documents that were part of a 2013 rate filing submitted for approval and subsequently disapproved by Maryland regulators. This filing provides the most insight into Allstate’s retention model available to the public, with a level of detail that is typically shielded from public view by Allstate and other insurers.
+  excerpt: |
+    verbatim copy. markdown NOT allowed. 200-300 words max please.
 
 
+
+  # same as examples, but points to articles/resources not affiliated with the item source, such as commentary
+  external_references:
+    - title: Another Essay About Impact
+      url: https://example.outsidesite.com/impact
+      description: |
+        50 puppies were saved by this story. Here's their oral history.
+
+  # specialized urls
+  # only one of each
+  #   repo: points to a git or other source repository
+  #   methodology: points to an "official" writeup for methodologies
+  appendixmeta:
+    repo:
+      url: https://github.com/STUFF/HELLO
+      description: |
+        Contains Python and R, and PDF conversions
+
+    methodology:
+      url: https://sciencestuff12345.com/methods/story9.html
+      title: Using Arithmetic To Find Truth

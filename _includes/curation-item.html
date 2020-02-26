@@ -25,10 +25,47 @@
         <a href="{{ item.url }}">{{item.title | markdownify }}</a>
     </h3>
 
+    <div class="byline">
+        {% assign pubmeta = item.publishmeta  %}
+        <div class="authors">
+            {% for author in pubmeta.authors  %}
+                <span class="author"><a href="{{author.url}}">{{author.name}}</a></span>
+            {% endfor %}
+        </div>
+        <div class="published">
+            Published
+
+            {% if pubmeta.publisher %}
+                at
+                <span class="publisher">
+                    <a href="{{pubmeta.publisher.url}}">{{pubmeta.publisher.name}}</a>
+                </span>
+            {% endif %}
+            {% if pubmeta.date %}
+                on
+                <span class="date date-published" date-utc="{{pubmeta.date}}">
+                    {{ pubmeta.date}}
+                </span>
+            {% endif %}
+
+        </div>
+
+        {% if item.authors %}
+
+
+
+        {% endif %}
+    </div>
 
     <div class="item-description description">
 
-        {{item.description | markdownify}}
+        {% if item.summary %}
+            {{ item.summary | markdownify }}
+        {% else %}
+            {{ item.description | markdownify }}
+        {% endif %}
+
+
 
 
         <span class="debug tk">

@@ -18,14 +18,28 @@ items:
     description: |
       Slimmer functionality compared to csvkit, but much faster.
 
+  - title: ripgrep
+    url: https://github.com/BurntSushi/ripgrep
+    description: |
+      ripgrep recursively searches directories for a regex pattern
+
 
   - title: Apache Tika
     url: https://tika.apache.org/
 
 
-  - title: tabula
+  - title: Tabula
     url: https://tabula.technology/
 
 
   - title: OpenRefine
     url: https://openrefine.org/
+
+
+  - title: Datasette
+    url: https://datasette.readthedocs.io/en/stable/
+    appendixmeta:
+      repo:
+        url: https://github.com/simonw/datasette
+
+
