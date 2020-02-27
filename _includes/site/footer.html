@@ -1,28 +1,23 @@
-<footer class="site-footer">
+<footer id="site-footer">
     <div class="container">
-        <h2>This is where the fat footer goes</h2>
 
 
         <div class="row">
-
-
             <div class="col">
-                <h6>Site Nav</h6>
-                <ul>
+                <div class="nav-header">Site Nav</div>
+                <ul class="nav-list">
                     {% for item in site.data.navigation %}
-                        <li><a href="{{ item.url }}">{{item.name}}</a></li>
+                        <li><a href="{{ item.url | relative_url }}">{{item.title}}</a></li>
 
                     {% endfor %}
                 </ul>
 
             </div>
             <div class="col">
-                <h6>Elsewhere</h6>
-                <ul>
+                <div class="nav-header">Elsewhere</div>
+                <ul class="nav-list">
                     <li><span class="fa fa-github-alt"></span>Github</li>
                     <li><span class="fa fa-twitter"></span>Twitter</li>
-                    <li><span class="fa fa-rss"></span>Blog</li>
-                    <li><span class="fa fa-flickr"></span>Photos</li>
                 </ul>
             </div>
 

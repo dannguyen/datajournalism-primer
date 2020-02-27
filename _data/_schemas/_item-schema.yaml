@@ -22,8 +22,6 @@ Official data schema for items
 
     If it exists, it is used *in lieu* of the description.
 
-
-
   publishmeta:
     date: 2020-02-20 # iso format, partial dates ok, e.g. 2020 and 2020-11
     publisher:
@@ -76,3 +74,33 @@ Official data schema for items
     methodology:
       url: https://sciencestuff12345.com/methods/story9.html
       title: Using Arithmetic To Find Truth
+
+
+
+####################
+
+# minimal version
+
+"""
+
+
+- title: THE_TITLE
+  url: THE_HTTP_PAGE
+
+  description: |
+    SEO_DESCRIPTION
+
+  summary: |
+    MANUAL_DESCRIPTION
+
+  publishmeta:
+    date: 2020_DATE_DATE
+    publisher:
+      name: PUBLISHER
+      url: PUBLISHER_HOMEPAGE
+    authors:
+      - name: FIRSTNAME_LASTNAME
+        url: AUTHOR_PAGE
+
+
+"""

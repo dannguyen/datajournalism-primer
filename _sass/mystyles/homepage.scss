@@ -1,0 +1,13 @@
+.homepage{
+
+    .site-title{
+      @include font-size($display1-size);
+    }
+
+    .hero{
+        margin-top: 3em;
+        margin-bottom: 2em;
+    }
+
+}
+

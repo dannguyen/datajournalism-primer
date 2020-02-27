@@ -1,7 +1,22 @@
-.site-footer{
+#site-footer{
     background: lavender;
     margin-top: 3.0rem;
     padding: 2.0rem 0;
+}
+
+
+#site-footer{
+    .nav-list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .nav-header{
+        font-weight: bold;
+    }
 }
 
 

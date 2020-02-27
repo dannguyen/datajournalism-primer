@@ -1,0 +1,24 @@
+# redundant with collections but TK
+
+- title: Home
+  url: /
+  header: true
+
+- title: Full Index
+  url: /fullindex
+  header: true
+
+- title: Resources/Community
+  url: /resources
+
+
+- title: Stories
+  url: /stories
+
+
+- title: Educational
+  url: /educational
+
+- title: Datasets
+  url: /datasets
+

@@ -41,10 +41,10 @@ collections:
     permalink: /:name
     output: true
     order:
-      - resources.html
+      - community.html
       - outlets.html
-      - educational.html
       - stories.html
+      - resources.html
       - datasets.html
 
 # Exclude from processing.

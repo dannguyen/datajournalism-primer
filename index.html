@@ -3,22 +3,46 @@ layout: home
 ---
 
 
-{% for cluster in site.clusters %}
-<section class="cluster">
 
-    <h1 class="cluster-title title">
-        <a href="{{cluster.url | absolute_url }} ">{{cluster.title}}</a>
-    </h1>
+<section class="hero">
 
-    <div class="cluster-description description">
-        {{cluster.description | markdownify}}
+    <div class="container">
+        <h1 class="site-title">
+            The Data Journalism Primer
+        </h1>
+
+        <p>
+
+            <strong>super awesome description goes here</strong>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium asperiores illum alias inventore voluptas animi sed est nesciunt aspernatur. Tenetur natus autem dolor laudantium amet quisquam distinctio similique aperiam voluptatem?
+
+        </p>
     </div>
 
-
 </section>
-{% endfor %}
 
 
+<div class="container">
+
+<section class="clusters">
+
+    {% for cluster in site.clusters %}
+    <section class="cluster">
+
+        <h1 class="cluster-title title">
+            <a href="{{cluster.url | absolute_url }} ">{{cluster.title}}</a>
+        </h1>
+
+        <div class="cluster-description description">
+            {{cluster.description | markdownify}}
+        </div>
+
+
+    </section>
+    {% endfor %}
+</section>
+
+</div>
 
 <!-- <code>
     {{ site.data }}
