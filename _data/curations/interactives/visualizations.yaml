@@ -1,0 +1,15 @@
+title: Visualizations
+description: |
+  Cool charts
+
+items:
+
+  - title: 512 Paths to the White House
+    url: http://archive.nytimes.com/www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html
+    external_references:
+      - url: https://source.opennews.org/articles/nyts-512-paths-white-house/
+
+  - title: Complete History of the NBA
+    url: https://projects.fivethirtyeight.com/complete-history-of-the-nba/
+
+

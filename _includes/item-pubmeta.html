@@ -1,0 +1,32 @@
+
+{% assign pubmeta = include.pubmeta %}
+
+<section class="pubmeta">
+
+    {% if pubmeta.date %}
+        <span class="date date-published" date-utc="{{pubmeta.date}}">
+            {{ pubmeta.date | date: '%B %d, %Y' }}
+        </span>
+    {% endif %}
+
+    {% if pubmeta.date && pubmeta.authors %} // {% endif %}
+
+
+
+    <span class="byline">
+        <span class="authors">
+            by
+            {% for author in pubmeta.authors  %}
+                <span class="author"><a href="{{author.url}}">{{author.name}}</a></span>
+            {% endfor %}
+        </span>
+        {% if pubmeta.publisher %}
+            {% if pubmeta.authors %} //  {% endif %}
+
+
+            <span class="publisher">
+               <a href="{{pubmeta.publisher.url}}">{{pubmeta.publisher.name}}</a>
+            </span>
+        {% endif %}
+    </span>
+</section>

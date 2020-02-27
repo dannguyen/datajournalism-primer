@@ -9,13 +9,13 @@ items:
 
   - title: California Public Sector Salaries
     url: https://transparentcalifornia.com/
-    description: |
+    blurb: |
       Independent site with the largest and most detailed public pay and pension database for California public employees, including state, city, county, and school district levels.
 
 
   - title: FEC Campaign Finance Data
     url: https://www.fec.gov/data/
-    description: |
+    blurb: |
       money money
     examples:
       - title: Bulk Data

@@ -14,13 +14,11 @@ Official data schema for items
   reflink: internal-canonical-anchorname
 
 
+  blurb: SEO friendly description of the thing. No markdown. Assumed to be taken verbatim from source (?). Used as a deck.
+
   description: |
-    SEO friendly description of the thing. Kind of like a deck. Markdown allowed
+    Long-form description written by me. If it exists, it is used *in lieu* of the blurb. Markdown allowed
 
-  summary: |
-    Long-form description of the thing.
-
-    If it exists, it is used *in lieu* of the description.
 
   publishmeta:
     date: 2020-02-20 # iso format, partial dates ok, e.g. 2020 and 2020-11
@@ -31,6 +29,9 @@ Official data schema for items
       - name: Firstname Lastname, Suffix
         url: https://publisher-homepage.com/author
 
+  images:
+    thumbnail:
+      path: /static/images/items/thumbnails/ideally-a-square.jpg
 
 
   # examples are lightweight items; most typically used when an item is a full-fledged site, e.g. Source OpenNews, to let reader get a preview via illustrative examples. For stories, can also point to non-appendix meta material, like PDF versions, or slide presentations, etc. by the same author/publisher

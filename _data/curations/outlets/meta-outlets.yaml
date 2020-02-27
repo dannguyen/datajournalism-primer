@@ -6,7 +6,7 @@ sortorder: 120
 items:
   - title: Source OpenNews
     url: https://source.opennews.org/
-    description: |
+    blurb: |
       Source is an OpenNews project designed to amplify the impact of journalism code and the community of developers, designers, journalists, and editors who make it.
 
        Incubated at the Mozilla Foundation from 2011-2016, OpenNews is now a project of Community Partners.

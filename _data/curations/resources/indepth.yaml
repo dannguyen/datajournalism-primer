@@ -9,5 +9,14 @@ items:
 
   - title: investigate.ai
     url: https://investigate.ai/
-    description: |
-      Practical data science for journalists (and everyone else)
+    blurb: Practical data science for journalists (and everyone else)
+
+
+  - title: R for Journalists
+    url: https://learn.r-journalism.com/en/
+    blurb: |
+      This course is designed to give you a sense of all the possibilities from programming in R.
+
+      It’ll emphasize packages that will help you do data analysis and visualization.
+
+

@@ -1,11 +1,11 @@
 title: Investigations
 description: |
-  Longform investigations using data
-sortorder: 100
+  Using data to comfort the afflicted and/or afflict the comforted
+sortorder: 150
 items:
   - title: "Suckers List: How Allstate’s Secret Auto Insurance Algorithm Squeezes Big Spenders"
     url: https://themarkup.org/allstates-algorithm/2020/02/25/car-insurance-suckers-list
-    description: |
+    blurb: |
       Insurers are supposed to price based on risk, but Allstate’s algorithm put a thumb on the scale
 
     publishmeta:
@@ -34,7 +34,7 @@ items:
     appendixmeta:
       repo:
         url: https://github.com/the-markup/investigation-allstates-algorithm
-        description: |
+        blurb: |
           Contains Python and R, and PDF conversions
 
 
@@ -63,7 +63,7 @@ items:
     examples:
       - title: Fighting Disinformation Using NLP
         url: https://github.com/j2kao/fcc_nn_research/blob/master/Presentation%20Kao%20MN%20Big%20Data%206-5-2018%20(final).pdf
-        description: |
+        blurb: |
           PDF of slide presentation to Minneanalytics Big Data Conference 2018-06-05
 
     appendixmeta:
@@ -78,74 +78,5 @@ items:
         url: http://www.abajournal.com/magazine/article/fcc_net_neutrality_bots
 
 #############
-
-
-
-
-  - title: They Played Dominoes Outside Their Apartment For Decades. Then The White People Moved In And Police Started Showing Up.
-    reflink: buzzfeed-news-311-gentrification
-    url: https://www.buzzfeednews.com/article/lamvo/gentrification-complaints-311-new-york
-    description: |
-      “This used to be a bad neighborhood.” Two areas of New York City that have recently gentrified have a corresponding high rate of quality-of-life complaints, which sometimes draws police attention.
-
-
-    summary: |
-      Most 311 data investigations are frivoulous if not outright flawed. Here's one that works within the limits and weaknesses of the data to tell an important story about racial tensions and gentrification. TK.
-
-
-
-    publishmeta:
-      date: 2018-06-29
-      publisher:
-        name: BuzzFeed News
-        url: https://www.buzzfeednews.com/
-      authors:
-        - name: Lam Thuy Vo
-          url: https://www.buzzfeednews.com/author/lamvo
-
-
-
-    # examples are lightweight items; most typically used when an item is a full-fledged site, e.g. Source OpenNews, to let reader get a preview via illustrative examples. For stories, can also point to non-appendix meta material, like PDF versions, or slide presentations, etc. by the same author/publisher
-    examples:
-      - title: "Jupyter Notebook: Analyzing ACS 2016 and standardized decennial Census data from 2000"
-        url: https://github.com/BuzzFeedNews/2018-06-nyc-311-complaints-and-gentrification/blob/master/notebooks/02-gentrification_measure_and_race_analysis.ipynb
-        description: |
-          This script combines and analyzes data from the 5-year estimates of the American Community Survey (2012-2016) and standardized decennial Census data from the US2010 Longitudinal Tract Data Base.
-
-
-
-    excerpt: |
-      A BuzzFeed News data analysis shows there has been a dramatic increase in 311 quality-of-life complaints on the block starting in 2015, the majority about noise. The uptick coincides with the neighborhood’s gentrification, with more white people moving in, and homes getting more expensive. And while not every 311 call results in a visit from the cops, officers from the local precinct do respond when they’re not handling emergencies.
-
-      None of the interactions between police and residents on this Harlem block, on West 136th Street between Broadway and Riverside Drive, have gone viral like #PermitPatty, who called police because a nonwhite girl was “illegally selling water.” Or the black woman detained in California for not smiling at a white neighbor. Or the white woman who called police because black people were having a barbecue. Or the black firefighter who had the cops called on him while doing routine safety inspections in an upscale neighborhood.
-
-      But they do have something in common. These viral incidents, on a national scale, and what’s happening locally on 136th Street show how people are quick to call authorities for harmless behavior by minorities. The resulting interactions can result in anything from a calm exchange to potential arrests.
-
-
-
-
-    # same as examples, but points to articles/resources not affiliated with the item source, such as commentary
-    external_references:
-      - title: Gentrification Report Methodology
-        url: http://www.governing.com/gov-data/gentrification-report-methodology.html
-        description: |
-          A heuristic for determining gentrification in Census tracts.
-
-    # specialized urls
-    # only one of each
-    #   repo: points to a git or other source repository
-    #   methodology: points to an "official" writeup for methodologies
-    appendixmeta:
-      repo:
-        url: https://github.com/BuzzFeedNews/2018-06-nyc-311-complaints-and-gentrification
-        description: |
-          NYC 311 complaints and demographic analysis
-
-      methodology:
-        url: "https://github.com/BuzzFeedNews/2018-06-nyc-311-complaints-and-gentrification#gentrification-methodology"
-        title: Gentrification Methodology
-        excerpt: |
-          The gentrification measure was adopted from a methodology devised by Governing Magazine (which in turn is similar to the definition from a Columbia University study ). It includes analysis of median income, median home value and educational attainment data.
-
 
 

@@ -10,4 +10,11 @@ https://dannguyen.github.io/datajournalism-primer
 - Schemas for each of the datatypes can be found in [_data/_schemas/](_data/_schemas/)
 - [Liquid filters for Jekyll](https://jekyllrb.com/docs/liquid/filters/)
 - [Liquid tags for Jekyll](https://jekyllrb.com/docs/liquid/filters/)
-- 
+
+
+## Todos
+
+#### schema stuff
+
+- change `publishmeta` to `byline`?
+- better name for `appendixmeta`

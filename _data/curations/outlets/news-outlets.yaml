@@ -17,7 +17,7 @@ items:
     url: https://www.propublica.org/
 
   - title: Pudding
-    description: |
+    blurb: |
       A digital publication that explains ideas debated in culture with visual essays.
     url: https://pudding.cool/
 

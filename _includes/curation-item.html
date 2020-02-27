@@ -26,42 +26,16 @@
     </h3>
 
 
-
     {% if item.publishmeta %}
-
-        <section class="pubmeta">
-            {% assign pubmeta = item.publishmeta  %}
-
-            {% if pubmeta.date %}
-                <div class="date date-published" date-utc="{{pubmeta.date}}">
-                    {{ pubmeta.date}}
-                </div>
-            {% endif %}
-
-            <div class="byline">
-                <span class="authors">
-                    by
-                    {% for author in pubmeta.authors  %}
-                        <span class="author"><a href="{{author.url}}">{{author.name}}</a></span>
-                    {% endfor %}
-                </span>
-                {% if pubmeta.publisher %}
-                    <span class="publisher">
-                       // <a href="{{pubmeta.publisher.url}}">{{pubmeta.publisher.name}}</a>
-                    </span>
-                {% endif %}
-
-            </div>
-        </section>
+        {% include item-pubmeta.html pubmeta=item.publishmeta %}
     {% endif %}
-
 
     <div class="item-description description">
 
-        {% if item.summary %}
-            {{ item.summary | markdownify }}
-        {% else %}
+        {% if item.description %}
             {{ item.description | markdownify }}
+        {% else %}
+            {{ item.blurb  }}
         {% endif %}
 
 

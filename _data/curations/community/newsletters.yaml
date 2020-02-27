@@ -1,0 +1,21 @@
+title: Newsletters
+description: |
+  news but by email
+
+items:
+  - title: Data is Plural
+    url: https://tinyletter.com/data-is-plural
+    blurb: A weekly newsletter of useful/curious datasets.
+
+    publishmeta:
+      authors:
+        name: Jeremy Singer-Vine
+        url: https://www.jsvine.com/
+    examples:
+      - title: Structured archive
+        url: https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit
+
+  - title: Numlock News
+    url: https://numlock.substack.com/
+    blurb: |
+      Other people cover U.S. politics to death, and you can get that elsewhere, so this newsletter focuses on the bigger stories going on in the background you’re missing.

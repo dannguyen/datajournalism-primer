@@ -7,7 +7,7 @@ items:
 
   - title: agate
     url: https://github.com/wireservice/agate
-    description: |
+    blurb: |
       A Python data analysis library that is optimized for humans instead of machines.
 
   - title: csvkit
@@ -15,12 +15,12 @@ items:
 
   - title: xsv
     url: https://github.com/BurntSushi/xsv
-    description: |
+    blurb: |
       Slimmer functionality compared to csvkit, but much faster.
 
   - title: ripgrep
     url: https://github.com/BurntSushi/ripgrep
-    description: |
+    blurb: |
       ripgrep recursively searches directories for a regex pattern
 
 

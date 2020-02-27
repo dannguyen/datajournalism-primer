@@ -1,4 +1,4 @@
-title: Awards
+title: Awards and Compilations
 
 description: |
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi vero nam dolores, quis? Vel quia tempore modi, illum incidunt maxime aperiam accusamus nulla dolore repellendus, odit assumenda temporibus sed alias?
@@ -7,7 +7,7 @@ description: |
 items:
   - title: Sigma Awards
     url: https://datajournalism.com/awards
-    description: |
+    blurb: |
       https://twitter.com/pilhofer/status/1230222608114814977
 
   - url: https://www.ire.org/awards/philip-meyer-awards
@@ -15,7 +15,7 @@ items:
 
   - url: https://www.datajournalismawards.org
     title: GEN Data Journalism Awards
-    description: |
+    blurb: |
       Hosted by the Global Editors Network
 
       Note: GEN – and these awards – went defunct in 2019.

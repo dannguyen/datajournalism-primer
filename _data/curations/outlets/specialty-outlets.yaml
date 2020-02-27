@@ -7,24 +7,24 @@ sortorder: 10000
 items:
   - title: The Functional Art
     url: http://www.thefunctionalart.com/
-    description: |
+    blurb: |
       Blog by Alberto Cairo
     examples:
       - title: Alberto Cairo's personal page
         url: http://albertocairo.com/
-        description: |
+        blurb: |
           A convenient place to find Cairo's books and talks.
 
 
   - title: Flowing Data
-    description: |
+    blurb: |
       Blog, with lots of interesting links and lessons, including premium content, by Nathan Yau.
     url: https://flowingdata.com/
 
 
 
   - title: Mike Bostock's Blog
-    description: |
+    blurb: |
       lots of good stuff tk
     url: https://medium.com/@mbostock
     examples:

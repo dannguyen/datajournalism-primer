@@ -1,4 +1,4 @@
-title: Data search portals
+title: Data catalogs and search portals
 
 description: |
   Data Portals, basically (TK curation)
@@ -8,6 +8,8 @@ items:
   - title: Open Data Network
     url: https://www.opendatanetwork.com
     reflink: open-data-network
+    blurb: |
+      lorem ipsum tk
     description: |
       Search across official city Socrata portals etc etc etc Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deserunt, exercitationem ad autem placeat debitis vitae earum doloribus laboriosam quaerat ducimus, quisquam repellendus sint culpa dolorem labore officiis maiores. Fuga.
     examples:
@@ -19,7 +21,7 @@ items:
 
   - title: MuckRock FOI Requests
     url: https://www.muckrock.com/foi/list/
-    description: |
+    blurb: |
       Search all Freedom of Information public records requests made by MuckRock users.
 
     examples:
@@ -30,11 +32,16 @@ items:
 
   - title: Google Dataset Search
     url: https://datasetsearch.research.google.com/
-    description: |
+    blurb: |
       A search tool from Google that [left beta in early 2020](https://www.blog.google/products/search/discovering-millions-datasets-web/).
 
 
   - title: Data.gov.uk
     url: https://data.gov.uk/
+    blurb: TK
     description: |
       Maybe the biggest and most well-organized public data repository.
+
+
+  - title: ProPublica Data Store
+    url: https://www.propublica.org/datastore/

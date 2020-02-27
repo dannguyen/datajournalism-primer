@@ -1,0 +1,39 @@
+title: News Applications
+description: |
+  news apps tk Lorem ipsum dolor sit amet. Basically, an interactive data site that is tied to a database and returns custom results/pages for the user
+
+
+
+items:
+  - title: "The Next to Die: Watching Death Row"
+    url: https://www.themarshallproject.org/next-to-die
+
+
+  - title: "Nonprofit Explorer: Research Tax-Exempt Organizations"
+    url: https://projects.propublica.org/nonprofits/
+
+
+  - title: "Credibly Accused"
+    url: https://projects.propublica.org/credibly-accused/
+    blurb: |
+      Search lists of U.S. Catholic clergy that have been deemed credibly accused of sexual abuse or misconduct.
+
+
+  - title: Texas Government Salaries Explorer
+    url: https://salaries.texastribune.org/
+
+
+  - title: Census Reporter
+    url: https://censusreporter.org/
+
+
+  - title: "ER Inspector: Find and Evaluate Every Emergency Room Near You"
+    url: https://projects.propublica.org/emergency/
+
+
+  - title: Fatal Force
+    url: https://www.washingtonpost.com/graphics/2019/national/police-shootings-2019/
+
+
+  - title: Politifact
+    url: https://www.politifact.com/

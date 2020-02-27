@@ -8,11 +8,11 @@ items:
   - title: "Ben Casselman: In Data Journalism, Tech Matters Less Than the People"
     url: https://www.nytimes.com/2019/11/13/technology/personaltech/data-journalism-economics.html
 
-    description: |
+    blurb: |
       Ben Casselman, an economics reporter, uses a programming language called R and works with vast data sets. But he says interviews still make for the best stories.
 
 
-    summary: |
+    description: |
       In this "Tech We're Using" NYT Q&A, economics reporter Ben Casselman describes using R to work with data too big for Excel and to automate the analysis of monthly reports. But Casselman contends that still he gets his best stories and insights the old-fashioned way.
 
     images:
@@ -39,7 +39,7 @@ items:
   - title: "From English To Tech, Sara Simon ’13 Shows What An Open Mind Can Do"
     url: https://thewellesleynews.com/2019/02/28/from-english-to-tech-sara-simon-13-shows-what-an-open-mind-can-do/
 
-    summary: |
+    description: |
       Sara Simon, then with the NYT's interactive news team, describes her path from 7-month coding academy to web developer for public news, to building tools for research and news gathering at the Times.
 
     excerpt: |
@@ -67,10 +67,10 @@ items:
   - title: "Q&A: Quartz’s David Yanofsky on coding as a journalist"
     url: https://www.cjr.org/tow_center/quartz-david-yanofsky.php
 
-    description: |
-      david yanofsky tktktk
+    blurb: |
+      David has covered a wide variety of topics in his work including pilots taking illegal cockpit selfies on commercial flights, documenting every satellite in orbit around Earth, and tracking private helicopters flying into the Davos conference with a DIY antenna.
 
-    # summary: |
+    # description: |
     #   MANUAL_DESCRIPTION
 
     publishmeta:
@@ -87,10 +87,10 @@ items:
   - title: "Q&A: ProPublica’s Lena Groeger on data visualization and writing about design"
     url: https://www.cjr.org/tow_center/propublica-lena-groeger-data-visualization-design.php
 
-    description: |
-      lena groeger tktk
+    blurb: |
+      Groeger joined ProPublica in 2011, and her current, hybrid job title is “journalist/developer/designer.
 
-    # summary: |
+    # description: |
     #   MANUAL_DESCRIPTION
 
     publishmeta:
