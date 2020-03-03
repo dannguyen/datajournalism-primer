@@ -1,0 +1,34 @@
+title: Portfolios of work
+description: |
+  How do data journalism people showcase their work? here you go
+
+
+items:
+  - title: Matt Waite
+    url: https://mattwaite.github.io/
+    blurb: Professor Of Practice, College Of Journalism And Mass Communications, University Of Nebraska-Lincoln
+
+  - title: Lena Groeger
+    url: https://lenagroeger.com/
+    blurb: A journalist, designer and developer living in the Bay Area.
+
+
+  - title: Al Shaw
+    url: https://shaw.al/
+    blurb: Al is a designer, developer and reporter who has been working in digital news for over a decade.
+
+
+  - title: Peter Aldhous
+    url: https://www.peteraldhous.com/index.html
+    blurb: science journalist
+
+
+  - title: Maarten Lambrechts
+    url: https://www.maartenlambrechts.com/
+    blurb: "Data Journalist | Data Designer | Visualization Consultant"
+
+  - title: Ben Welsh
+    url: https://palewi.re/who-is-ben-welsh/
+    blurb:  Hello. My name is Ben Welsh. I’m a native Iowan living in Los Angeles.
+    description: |
+      A good example of a portfolio that uses mainly text lists to convey the scope of work and experience.

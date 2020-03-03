@@ -1,0 +1,34 @@
+title: Curriculums and Syllabi
+description: |
+  Data journalism as taught in schools and workshops
+
+  Some listings here: https://github.com/dannguyen/journalism-syllabi
+
+items:
+  - title: Digital Frameworks
+    url: https://digitalframeworks.github.io/syllabus/
+    blurb: An overview of data journalism practice
+    publishmeta:
+      date: 2016
+      publisher:
+        name: Northwestern University
+      authors:
+        - name: David Eads
+          url: http://www.recoveredfactory.net/
+
+
+  - title: J298 Data Journalism
+    url: https://ucb-dataj.github.io/2018/
+    blurb: This course is for students who want to make finding and reporting stories from data part of their toolkit.
+    publishmeta:
+      date: 2018
+      publisher:
+        name: UC Berkeley
+      authors:
+        - name: Peter Aldhous
+        - name: Amanda Hickman
+
+
+  - title: Algorithms, Lede Program
+    url: https://github.com/jstray/lede-algorithms
+    blurb: A course on algorithms used in journalism, for beginning Python programmers

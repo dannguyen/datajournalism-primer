@@ -30,3 +30,9 @@ items:
     examples:
       - title: Command-Line Cartography
         url: "https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c"
+
+
+  - title: ProPublica Nerd Blog
+    blurb: Secrets for data journalists, developers, newsroom designers, engagement specialists, and more.
+    url: https://www.propublica.org/nerds/
+

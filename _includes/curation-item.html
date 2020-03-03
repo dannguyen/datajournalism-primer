@@ -17,44 +17,44 @@
 
 {% assign _item_permalink = site.fullindex_path | append: '#' | append: _item_anchor %}
 
+<div class="container">
+
+    <section class="item">
+        <h3 class="item-title title">
+            <a href="{{ item.url }}">{{item.title  }}</a>
+        </h3>
 
 
-<section class="item">
-
-    <h3 class="item-title title">
-        <a href="{{ item.url }}">{{item.title  }}</a>
-    </h3>
-
-
-    {% if item.publishmeta %}
-        {% include item-pubmeta.html pubmeta=item.publishmeta %}
-    {% endif %}
-
-    <div class="item-description description">
-
-        {% if item.description %}
-            {{ item.description | markdownify }}
-        {% else %}
-            {{ item.blurb  }}
+        {% if item.publishmeta %}
+            {% include item-pubmeta.html pubmeta=item.publishmeta %}
         {% endif %}
 
+        <div class="item-description description">
+
+            {% if item.description %}
+                {{ item.description | markdownify }}
+            {% else %}
+                {{ item.blurb  }}
+            {% endif %}
 
 
 
-        <span class="debug tk" style="display:none;">
-            <a href="{{_item_permalink | absolute_url }}">
-                ⚓
-            </a>
-        </span>
 
-    </div>
+            <span class="debug tk" style="display:none;">
+                <a href="{{_item_permalink | absolute_url }}">
+                    ⚓
+                </a>
+            </span>
 
-    {% if item.examples %}
+        </div>
 
-        {% include item-examples.html examples=item.examples %}
+        {% if item.examples %}
 
-    {% endif %}
+            {% include item-examples.html examples=item.examples %}
+
+        {% endif %}
+
+    </section>
 
 
-
-</section>
+</div>

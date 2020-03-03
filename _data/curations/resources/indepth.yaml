@@ -20,3 +20,19 @@ items:
       It’ll emphasize packages that will help you do data analysis and visualization.
 
 
+  - title: Sports Data Analysis
+    url: http://mattwaite.github.io/sports/
+    blurb: Code, data, visuals and the Tidyverse for journalists and other storytellers
+    date: 2019
+
+    appendixmeta:
+      repo:
+        url: https://github.com/mattwaite/sportsdatabook
+
+  - title: Math with Spreadsheets for Beginning Reporters
+    url: https://mattwaite.github.io/mathanddata/
+    blurb: A walkthrough of some basic math concepts, how to apply them in a spreadsheet, and how to turn that into a story.
+    publishmeta:
+      date: 2020
+      authors:
+        - name: Matt Waite

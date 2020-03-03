@@ -6,9 +6,11 @@ Official data schema for items
 # Note: we assume an item is in a list of items, hence `- title:`
 
 ### REQUIRED ATTRIBUTES
-- title: Title of The Thing
+  # articles should be appended to proper noun, for alphabetization purposes
+- title: Thing, The
   url: https://example.com/article/item/permalink.html
   ## /REQUIRED
+  displaytitle: Pudding, Thing
 
   # used to denote a canonical anchor on fullindex, e.g. fullindex#reflink-internal-canonical-anchorname
   reflink: internal-canonical-anchorname

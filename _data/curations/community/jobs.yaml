@@ -1,0 +1,21 @@
+title: Job Boards
+description: |
+  Where to find work. Are there enough of these though (tailored to data journalism)
+
+items:
+  - title: "NewsNerdery #jobs"
+    url: "https://newsnerdery.slack.com/messages/jobs/"
+
+  - title: IRE Job Center
+    url: https://www.ire.org/jobs
+    blurb: |
+      Investigative Reporters and Editors and the National Institute for Computer-Assisted Reporting host an active website for some of the best-trained and highest-profile journalists in the world.
+
+  - title: Source OpenNews Jobs
+    url: https://source.opennews.org/jobs/
+
+  - title: Google Job Search for 'data journalist'
+    url: "https://www.google.com/search?q=data+journalism&ibp=htl;jobs&htivrt=jobs"
+
+
+

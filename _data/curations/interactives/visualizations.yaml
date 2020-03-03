@@ -13,3 +13,9 @@ items:
     url: https://projects.fivethirtyeight.com/complete-history-of-the-nba/
 
 
+  - title: Human Terrain
+    url: https://pudding.cool/2018/12/3d-cities-story/
+    examples:
+      url: https://pudding.cool/2018/10/city_3d/
+      title: Population Mountains
+      description: An insightful narrative about the making of Human Terrain

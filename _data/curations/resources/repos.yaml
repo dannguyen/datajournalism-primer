@@ -1,0 +1,22 @@
+title: Repos
+description: |
+  A selection of open source repositories of data and analysis. Or maybe it should just be news orgs?
+
+
+items:
+  - title: BuzzFeedNews/everything
+    url: https://github.com/BuzzFeedNews/everything
+
+
+  - title: the-pudding/data
+    url: https://github.com/the-pudding/data
+    blurb: Data sets created for stories on The Pudding, open to the public.
+
+
+  - title: associatedpress
+    url: https://github.com/associatedpress
+    appendixmeta:
+      repo:
+        url: https://github.com/associatedpress/datakit-core
+
+

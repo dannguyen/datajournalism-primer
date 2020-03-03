@@ -11,3 +11,24 @@ items:
     publishmeta:
       authors:
         - name: Jacob Harris
+
+
+  - title: What the Fox Knows
+    url: https://fivethirtyeight.com/features/what-the-fox-knows/
+    blurb: |
+      FiveThirtyEight is a data journalism organization. Let me explain what we mean by that, and why we think the intersection of data and journalism is so important.
+    publishmeta:
+      authors:
+        - name: Nate Silver
+      date: 2014-03-17
+
+
+  - title: Design Principles for News Apps & Graphics
+    url: https://source.opennews.org/articles/design-principles-news-apps-graphics/
+    blurb: |
+      Lena Groeger’s lowdown on how to apply classic design principles to your newfangled interactive graphics and apps
+    publishmeta:
+      authors:
+        - name: Lena Groeger
+          url: https://source.opennews.org/people/lena-groeger/
+      date: 2013-05-30
