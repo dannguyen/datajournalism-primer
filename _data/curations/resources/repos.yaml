@@ -15,8 +15,7 @@ items:
 
   - title: associatedpress
     url: https://github.com/associatedpress
-    appendixmeta:
-      repo:
-        url: https://github.com/associatedpress/datakit-core
 
 
+  - title: fivethirtyeight/data
+    url: https://github.com/fivethirtyeight/data

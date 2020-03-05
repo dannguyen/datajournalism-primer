@@ -23,3 +23,10 @@ items:
     examples:
       - title: 2019 Shortlist
         url: https://www.datajournalismawards.org/2019-shortlist/
+
+
+
+  - url: https://features.propublica.org/2018-year-in-review/propublica-visual-journalism-data-design-photography-illustration-video/
+    title: ProPublica's Year in (Mostly) Visual Journalism
+    publishmeta:
+      date: 2019-01-03

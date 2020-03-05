@@ -4,6 +4,14 @@ description: |
 sortorder: 22
 items:
 
+  - title: How 5 Data Dynamos Do Their Jobs
+
+    url: https://www.nytimes.com/2019/06/12/reader-center/data-reporting-spreadsheets.html
+    blurb: |
+      Reporters from across the newsroom describe the many ways in which they increasingly rely on datasets and spreadsheets to create groundbreaking work.
+    publishmeta:
+      date: 2019-06-12
+
 
   - title: "Ben Casselman: In Data Journalism, Tech Matters Less Than the People"
     url: https://www.nytimes.com/2019/11/13/technology/personaltech/data-journalism-economics.html

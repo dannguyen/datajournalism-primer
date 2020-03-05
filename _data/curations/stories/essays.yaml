@@ -32,3 +32,30 @@ items:
         - name: Lena Groeger
           url: https://source.opennews.org/people/lena-groeger/
       date: 2013-05-30
+
+
+  - title: "Building a Database From Scratch: Behind the Scenes With Documenting Hate Partners"
+    url: https://www.propublica.org/nerds/building-a-database-from-scratch-behind-the-scenes-with-documenting-hate-partners
+    publishmeta:
+      authors:
+        - name: Rachel Glickhouse
+          url: https://www.propublica.org/people/rachel-glickhouse
+      date: 2019-10-23
+
+
+  - title: How We Helped Our Reporters Learn to Love Spreadsheets
+    url: https://open.nytimes.com/how-we-helped-our-reporters-learn-to-love-spreadsheets-adc43a93b919
+    publishmeta:
+      date: 2019-06-12
+      publisher:
+        name: NYT Open
+        url: https://open.nytimes.com/
+
+
+  - title: How to Prepare for an Engineering Interview at The New York Times
+    url: https://open.nytimes.com/how-to-prepare-for-an-engineering-interview-at-the-new-york-times-83f4ee6a68b5
+    publishmeta:
+      date: 2020-01-30
+      publisher:
+        name: NYT Open
+        url: https://open.nytimes.com/

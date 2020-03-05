@@ -36,3 +36,12 @@ items:
       date: 2020
       authors:
         - name: Matt Waite
+
+
+  - title: Learn machine learning with free hands-on videos
+    url: https://qz.ai/journalists-learn-machine-learning-with-free-videos/
+    publishmeta:
+      date: 2020-03-04
+      authors:
+        - name: John Keefe
+          url: https://qz.ai/author/jkeefe/
