@@ -60,5 +60,5 @@ items:
   - title: DataKit
     url: http://datakit.ap.org/
     examples:
-      title: "AP’s DataKit: Helping teams collaborate efficiently"
-      url: https://www.rjionline.org/stories/ap-datakit-intro
+      - title: "AP’s DataKit: Helping teams collaborate efficiently"
+        url: https://www.rjionline.org/stories/ap-datakit-intro

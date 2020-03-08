@@ -17,44 +17,47 @@
 
 {% assign _item_permalink = site.fullindex_path | append: '#' | append: _item_anchor %}
 
-<div class="container">
+<section class="item">
+    <div class="media">
+        {% if item.images.thumbnail %}
+            {% assign _imgpath = item.images.thumbnail.path %}
+        {% else %}
+            {% assign _imgpath = 'static/images/items/thumbnails/lorem-ipsum-tk.png' %}
 
-    <section class="item">
-        <h3 class="item-title title">
-            <a href="{{ item.url }}">{{item.title  }}</a>
-        </h3>
-
-
-        {% if item.publishmeta %}
-            {% include item-pubmeta.html pubmeta=item.publishmeta %}
         {% endif %}
+        <img class="align-self-start mr-3 img-thumbnail item-thumb" src="{{_imgpath | relative_url}}" alt="">
 
-        <div class="item-description description">
+        <div class="media-body">
+            <h3 class="item-title title">
+                <a href="{{ item.url }}">{{item.title  }}</a>
+            </h3>
 
-            {% if item.description %}
-                {{ item.description | markdownify }}
-            {% else %}
-                {{ item.blurb  }}
+
+            {% if item.publishmeta %}
+                {% include item-pubmeta.html pubmeta=item.publishmeta %}
             {% endif %}
 
+            <div class="item-description description">
 
+                {% if item.description %}
+                    {{ item.description | markdownify }}
+                {% else %}
+                    {{ item.blurb  }}
+                {% endif %}
 
+                <span class="debug tk" style="display:none;">
+                    <a href="{{_item_permalink | absolute_url }}">
+                        ⚓
+                    </a>
+                </span>
 
-            <span class="debug tk" style="display:none;">
-                <a href="{{_item_permalink | absolute_url }}">
-                    ⚓
-                </a>
-            </span>
+            </div>
 
+            {% if item.examples %}
+
+                {% include item-examples.html examples=item.examples %}
+
+            {% endif %}
         </div>
-
-        {% if item.examples %}
-
-            {% include item-examples.html examples=item.examples %}
-
-        {% endif %}
-
-    </section>
-
-
-</div>
+    </div>
+</section>

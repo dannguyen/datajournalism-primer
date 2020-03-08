@@ -1,7 +1,7 @@
 
 {% assign curation = include.curation %}
 
-<section class="curation">
+<section class="curation" id="curation-{{curation.title | slugify}}" name="curation-{{curation.title | slugify}}">
     <h2 class="curation-title title">
         <!-- <a href="#"></a> -->
         {{curation.title  }}

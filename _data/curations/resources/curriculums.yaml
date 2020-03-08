@@ -32,3 +32,7 @@ items:
   - title: Algorithms, Lede Program
     url: https://github.com/jstray/lede-algorithms
     blurb: A course on algorithms used in journalism, for beginning Python programmers
+
+
+  - title: School of Data Online Courses
+    url: https://schoolofdata.org/courses/

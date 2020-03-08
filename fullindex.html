@@ -8,12 +8,59 @@ description: |
 
 <div class="fullindex">
 
+    <div class="toc">
+        <ul>
+        {% for cluster in site.clusters %}
+            <li>
+                <div class="cluster-title">
+                    <a href="#cluster-{{cluster.title | slugify}}">{{cluster.title}}</a>
+                </div>
+
+                <ul>
+                    {% assign curations = site.data.curations[cluster.cluster_folder] %}
+
+<!-- start curation-sort -->
+{% assign _rawcurations = site.data.curations[cluster.cluster_folder] %}
+{% assign curations = "" | split: "," %}
+
+{% for _rc in _rawcurations %}
+    {% assign _el = _rc[1] %}
+
+    {% assign curations = curations | push: _el %}
+{% endfor %}
+
+{% assign curations = curations | sort: 'sortorder','last' %}
+<!-- /end curation-sort -->
+
+
+                    {% for curation in curations %}
+
+                            <li>
+                                <div class="curation-title">
+                                    <span class="count">{{curation.items | size }}</span>
+                                    <span class="title">
+                                        <a href="#curation-{{curation.title | slugify}}">{{curation.title}}</a>
+
+                                    </span>
+                                </div>
+                            </li>
+                    {% endfor %}
+                </ul>
+            </li>
+
+        {% endfor %}
+        </ul>
+    </div>
+
+
+    <hr>
+
 
     {% for cluster in site.clusters %}
-    <section class="cluster">
+    <section class="cluster" id="cluster-{{cluster.title | slugify}}" name="cluster-{{cluster.title | slugify}}">
 
         <h1 class="cluster-title title">
-            <a href="{{cluster.url | absolute_url }} ">Cluster: {{cluster.title}}</a>
+            <a href="{{cluster.url | absolute_url }} ">{{cluster.title}}</a>
         </h1>
 
         <div class="cluster-description description">
@@ -23,14 +70,23 @@ description: |
 
         <section class="curations">
 
-            {% assign curations = site.data.curations[cluster.cluster_folder] %}
 
-            {% for _chash in curations %}
+<!-- start curation-sort -->
+{% assign _rawcurations = site.data.curations[cluster.cluster_folder] %}
+{% assign curations = "" | split: "," %}
 
-                {% assign curation = _chash[1] %}
+{% for _rc in _rawcurations %}
+    {% assign _el = _rc[1] %}
 
+    {% assign curations = curations | push: _el %}
+{% endfor %}
+
+{% assign curations = curations | sort: 'sortorder','last' %}
+<!-- /end curation-sort -->
+
+
+            {% for curation in curations %}
                 {% include curation-section.html curation=curation %}
-
             {% endfor %}
 
         </section>

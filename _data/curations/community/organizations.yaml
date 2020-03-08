@@ -1,6 +1,7 @@
 title: Organizations
 description: |
   Professional organizations and etc. TK
+sortorder: 42
 
 
 items:
@@ -8,8 +9,13 @@ items:
     url: https://www.ire.org/nicar/
     blurb: |
         The National Institute for Computer-Assisted Reporting maintains a library of federal databases, employs journalism students, and trains journalists in the practical skills of getting and analyzing electronic information.
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/ire-nicar-logo.png
+
 
     examples:
       - reftarget: nicar-l
         title: NICAR-L Mailing List
-
+      - title: NICAR 2018 Slides, Links & Tutorials
+        url: http://blog.chryswu.com/2018/01/23/nicar18-slides-links-tutorials/

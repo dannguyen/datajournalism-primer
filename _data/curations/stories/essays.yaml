@@ -59,3 +59,7 @@ items:
       publisher:
         name: NYT Open
         url: https://open.nytimes.com/
+
+
+  - title: Mapping coronavirus, responsibly
+    url: https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/

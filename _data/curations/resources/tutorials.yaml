@@ -1,0 +1,68 @@
+title: Tutorials
+description: Technical walkthroughs
+
+items:
+  - title: A Gentle Introduction to SQL Using SQLite
+    url: https://a-gentle-introduction-to-sql.readthedocs.io/
+    blurb: |
+      This tutorial was crafted by Troy Thibodeaux as a human-friendly introduction to the world of databases and SQL. It introduces database skills from the ground up using SQLite and a small set of data from the world of campaign finance.
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/gentle-sqlite.png
+    appendixmeta:
+      repo:
+        url: https://github.com/zstumgoren/gentle-intro-to-sql
+
+
+  - title: First News App
+    url: https://first-news-app.readthedocs.io/en/latest/
+    blurb: |
+      This tutorial will walk you through the process of building an interactive data visualization from a structured dataset.
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/first-news-app.png
+
+
+
+  - title: First Python Notebook
+    url: https://www.firstpythonnotebook.org
+    blurb: |
+      This textbook will guide you through an investigation of money in politics using data from the California Civic Data Coalition.
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/first-notebook.png
+
+
+  - title: First Graphics App
+    url: https://www.firstgraphics.app
+    description: |
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sequi ad placeat libero, modi quasi odio minima vitae. Sequi, consequatur? Optio ipsum molestias ea fugiat ex! Vero architecto eveniet quidem!
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/first-graphicsapp.jpg
+
+
+  - title: Beginner Excel tutorial
+    url: http://mjwebster.github.io/DataJ/BeginnerExcel.html
+    description: |
+      Lorem ipsum Dolorum dolor, enim impedit sint molestiae aspernatur, doloribus laboriosam maxime, ea delectus suscipit! Sapiente vero fugiat
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/excel-beginners-maryjo.png
+
+
+  - title: Regex hands-on at NICAR 2017
+    url: https://docs.google.com/document/d/1ZO82KCawFoNMrBRxbIcxYwhqK5oUiayCoqAVxPWw-2A
+    description: |
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam officia at laboriosam minima quis pariatur nesciunt. Dicta animi labore, maiores cum mollitia harum officiis ut qui quasi. Obcaecati, at.
+    publishmeta:
+      authors:
+        - name: Justin Myers
+          url: https://twitter.com/myersjustinc
+    examples:
+      - title: NICAR slides version
+        url: https://docs.google.com/presentation/d/1a470uB1A0Bi65fUfa-n7J0cgRnU_hXZimA3eqCYeq1M
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/regex-hands-on-2017.png
+

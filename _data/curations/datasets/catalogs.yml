@@ -32,7 +32,7 @@ items:
 
   - title: Google Dataset Search
     url: https://datasetsearch.research.google.com/
-    blurb: |
+    description: |
       A search tool from Google that [left beta in early 2020](https://www.blog.google/products/search/discovering-millions-datasets-web/).
 
 

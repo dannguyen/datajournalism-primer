@@ -6,6 +6,11 @@ items:
   - title: ProPublica Data Style Guide
     url: https://github.com/propublica/guides/blob/master/news-apps.md
 
+  - title: Bad Data Guide
+    url: https://github.com/Quartz/bad-data-guide
 
-  - title: Mapping coronavirus, responsibly
-    url: https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/
+  - title: Data literacy tipsheet
+    url: https://mjwebster.github.io/DataJ/Other/DataLiteracy.pdf
+
+  - title: Excel Magic
+    url: https://mjwebster.github.io/DataJ/tipsheets/ExcelMagic.pdf

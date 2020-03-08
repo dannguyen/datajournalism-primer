@@ -1,0 +1,14 @@
+.fullindex{
+
+    .toc{
+
+        .cluster-title{
+          @include font-size($h5-font-size);
+        }
+
+        .curation-title{
+          @include font-size($h6-font-size);
+        }
+    }
+
+}
