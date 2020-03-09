@@ -9,13 +9,22 @@ items:
 
     publishmeta:
       authors:
-        name: Jeremy Singer-Vine
-        url: https://www.jsvine.com/
+        - name: Jeremy Singer-Vine
+          url: https://www.jsvine.com/
     examples:
       - title: Structured archive
         url: https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/data-is-plural.png
+
 
   - title: Numlock News
     url: https://numlock.substack.com/
     blurb: |
       Other people cover U.S. politics to death, and you can get that elsewhere, so this newsletter focuses on the bigger stories going on in the background you’re missing.
+
+    publishmeta:
+      authors:
+        - name: Walt Hickey
+          url: https://twitter.com/WaltHickey

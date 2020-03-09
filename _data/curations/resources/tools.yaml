@@ -5,25 +5,83 @@ description: |
 
 items:
 
+  - title: Datawrapper
+    url: https://www.datawrapper.de/
+    blurb: |
+      Why us? Because we empower everyone to create beautiful charts, maps and tables. Including you.
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/datawrapper.png
+
+
   - title: JupyterLab/Notebook
     description: |
       The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
     url: https://jupyter.org/
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/jupyter-notebook.png
+
+
 
   - title: Observable
     url: https://observablehq.com
     examples:
       - url: https://observablehq.com/@observablehq/observable-for-jupyter-users
         title: Observable for Jupyter Users
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/observable.png
 
   - title: RStudio
     url: https://rstudio.com/
+    blurb: |
+      RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/rstudio.png
+
 
 
   - title: agate
     url: https://github.com/wireservice/agate
     blurb: |
       A Python data analysis library that is optimized for humans instead of machines.
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/agate.png
+
+
+
+  - title: Tabula
+    url: https://tabula.technology/
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/tabula.png
+
+
+  - title: OpenRefine
+    url: https://openrefine.org/
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/openrefine.png
+
+  - title: Datasette
+    url: https://datasette.readthedocs.io/en/stable/
+    appendixmeta:
+      repo:
+        url: https://github.com/simonw/datasette
+
+  - title: DataKit
+    url: http://datakit.ap.org/
+    examples:
+      - title: "AP’s DataKit: Helping teams collaborate efficiently"
+        url: https://www.rjionline.org/stories/ap-datakit-intro
+
+
+  - title: Apache Tika
+    url: https://tika.apache.org/
+
 
   - title: csvkit
     url: https://csvkit.readthedocs.io/en/latest/
@@ -38,27 +96,3 @@ items:
     blurb: |
       ripgrep recursively searches directories for a regex pattern
 
-
-  - title: Apache Tika
-    url: https://tika.apache.org/
-
-
-  - title: Tabula
-    url: https://tabula.technology/
-
-
-  - title: OpenRefine
-    url: https://openrefine.org/
-
-
-  - title: Datasette
-    url: https://datasette.readthedocs.io/en/stable/
-    appendixmeta:
-      repo:
-        url: https://github.com/simonw/datasette
-
-  - title: DataKit
-    url: http://datakit.ap.org/
-    examples:
-      - title: "AP’s DataKit: Helping teams collaborate efficiently"
-        url: https://www.rjionline.org/stories/ap-datakit-intro

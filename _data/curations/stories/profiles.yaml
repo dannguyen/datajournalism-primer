@@ -11,6 +11,8 @@ items:
       Reporters from across the newsroom describe the many ways in which they increasingly rely on datasets and spreadsheets to create groundbreaking work.
     publishmeta:
       date: 2019-06-12
+    excerpt: |
+      But it was hard to get a sense of the scale of the problem just by collecting anecdotes. So I turned to NYC Open Data, a vast trove of information that includes records about 311 complaints. By sorting and calculating the data, we learned that many of the calls were targeting stores in just a few Brooklyn neighborhoods. On one busy avenue, 25 stores in a two-block stretch had received complaints, which the city was required to investigate.
 
 
   - title: "Ben Casselman: In Data Journalism, Tech Matters Less Than the People"

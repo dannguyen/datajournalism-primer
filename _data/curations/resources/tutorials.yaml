@@ -66,3 +66,12 @@ items:
       thumbnail:
         path: static/images/items/thumbnails/regex-hands-on-2017.png
 
+
+
+  - title: SQL Murder Mystery
+    url: http://mystery.knightlab.com/
+    blurb: |
+      The SQL Murder Mystery is designed to be both a self-directed lesson to learn SQL concepts and commands and a fun game for experienced SQL users to solve an intriguing crime.
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/sql-murder-mystery.png

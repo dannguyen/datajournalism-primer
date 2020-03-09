@@ -25,8 +25,9 @@
             {% assign _imgpath = 'static/images/items/thumbnails/lorem-ipsum-tk.png' %}
 
         {% endif %}
-        <img class="align-self-start mr-3 img-thumbnail item-thumb" src="{{_imgpath | relative_url}}" alt="">
-
+        <a href="{{item.url}}">
+            <img class="align-self-start mr-3 img-thumbnail item-thumb" src="{{_imgpath | relative_url}}" alt="">
+        </a>
         <div class="media-body">
             <h3 class="item-title title">
                 <a href="{{ item.url }}">{{item.title  }}</a>

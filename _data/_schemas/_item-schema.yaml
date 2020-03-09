@@ -33,7 +33,7 @@ Official data schema for items
 
   images:
     thumbnail:
-      path: /static/images/items/thumbnails/ideally-a-square.jpg
+      path: /static/images/items/thumbnails/SOMETHING.png
 
 
   # examples are lightweight items; most typically used when an item is a full-fledged site, e.g. Source OpenNews, to let reader get a preview via illustrative examples. For stories, can also point to non-appendix meta material, like PDF versions, or slide presentations, etc. by the same author/publisher
