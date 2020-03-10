@@ -18,6 +18,9 @@ items:
           url: https://themarkup.org/people/aaron-sankin
 
 
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/markup-allstate-algorithm.jpg
 
     tags:
       programming-languages:
@@ -76,6 +79,27 @@ items:
 
       - title: What is the FCC going to do about millions of bot comments during the net neutrality repeal debate?
         url: http://www.abajournal.com/magazine/article/fcc_net_neutrality_bots
+
+
+
+  - title: The Data Sleuths of San José
+    url: https://foreignpolicy.com/2015/05/27/the-data-sleuths-of-san-jose-costa-rica-corruption/
+    blurb: |
+      How three scrappy Costa Rican reporters used the power of data to bring down a system of sleaze.
+
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/data-slueths-of-san-jose.jpg
+
+    publishmeta:
+      date: 2015-05-27
+      publisher:
+        name: Foreign Policy
+        url: https://foreignpolicy.com/
+      authors:
+        - name: Christian Caryl
+          url: https://foreignpolicy.com/author/christian-caryl/
+
 
 #############
 
