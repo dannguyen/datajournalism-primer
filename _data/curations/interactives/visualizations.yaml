@@ -16,6 +16,27 @@ items:
   - title: Human Terrain
     url: https://pudding.cool/2018/12/3d-cities-story/
     examples:
-      url: https://pudding.cool/2018/10/city_3d/
-      title: Population Mountains
-      description: An insightful narrative about the making of Human Terrain
+      - url: https://pudding.cool/2018/10/city_3d/
+        title: Population Mountains
+        description: An insightful narrative about the making of Human Terrain
+
+
+  - title: 'Why outbreaks like coronavirus spread exponentially, and how to “flatten the curve”'
+    url: https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
+    blurb: |
+      Without any measures to slow it down, covid-19 will continue to spread exponentially for months. To understand why, it is instructive to simulate the spread of a fake disease through a population.
+
+    external_references:
+      - url: https://twitter.com/farhip/status/1239695600398020614
+        title: "Paul Farhi tweets: This story is the most-read ever in the history of our website"
+
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/wapo-covid19-sim.png
+
+
+    publishmeta:
+      date: 2020-03-14
+      authors:
+        - name: Harry Stevens
+          url: https://www.washingtonpost.com/people/harry-stevens/
