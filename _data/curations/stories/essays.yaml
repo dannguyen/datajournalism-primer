@@ -63,3 +63,17 @@ items:
 
   - title: Mapping coronavirus, responsibly
     url: https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/
+
+  - title: A data designer’s responsibility during a global crisis
+    url: https://vanschneider.com/a-data-designers-responsibility-during-a-global-crisis
+    blurb: |
+      As designers, we have a responsibility to visualize information in a simple, accurate and easy-to-understand way. This couldn’t be more true for designers reporting the news during this global crisis.
+    publishmeta:
+      date: 2020-03-25
+      authors:
+        - url: https://vanschneider.com/
+          name: Tobias van Schneider
+    images:
+      thumbnail:
+        path: static/images/items/thumbnails/vanschneider-datadesign-resp.png
+
