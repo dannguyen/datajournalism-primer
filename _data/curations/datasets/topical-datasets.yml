@@ -20,3 +20,25 @@ items:
     examples:
       - title: Bulk Data
         url: https://www.fec.gov/data/browse-data/?tab=bulk-data
+
+
+- title: Coronavirus (Covid-19) Data in the United States
+  url: https://github.com/nytimes/covid-19-data
+  blurb: |
+    The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time. We are compiling this time series data from state and local governments and health departments in an attempt to provide a complete record of the ongoing outbreak.
+
+
+  publishmeta:
+    date: 2020-03-27
+    publisher:
+      name: New York Times
+      url: https://www.nytimes.com
+
+  examples:
+    - title: "We’re Sharing Coronavirus Case Data for Every U.S. County"
+      url: https://www.nytimes.com/article/coronavirus-county-data-us.html
+      blurb: |
+        With no detailed government database on where the thousands of coronavirus cases have been reported, a team of New York Times journalists is attempting to track every case.
+
+
+
