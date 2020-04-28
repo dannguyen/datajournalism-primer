@@ -23,6 +23,14 @@ items:
         path: static/images/items/thumbnails/jupyter-notebook.png
 
 
+  - title: Klaxon
+    description: |
+      This web-based program enables reporters and editors to monitor scores of websites, including data-heavy governmental or corporate sites, for newsworthy changes.
+    url: https://github.com/themarshallproject/klaxon
+    examples:
+      - url: https://www.themarshallproject.org/2016/09/26/the-marshall-project-launches-klaxon
+        title: The Marshall Project Launches Klaxon
+
 
   - title: Observable
     url: https://observablehq.com
